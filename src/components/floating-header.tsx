@@ -5,6 +5,7 @@ import { Menu, X, Home, User, Settings, Mail } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { cn } from "@/lib/utils"
+import { InteractiveHoverButton } from "./magicui/interactive-hover-button"
 
 export function FloatingHeader() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -98,12 +99,12 @@ export function FloatingHeader() {
               </Button>
 
               {/* CTA Button - hidden when scrolled on mobile */}
-              <Button
-                size={isScrolled ? "sm" : "default"}
-                className={cn("hidden transition-all duration-500", isScrolled ? "md:inline-flex" : "sm:inline-flex")}
-              >
-                {isScrolled ? "Join" : "Get Started"}
-              </Button>
+<InteractiveHoverButton                 
+              className={cn("hidden transition-all duration-500", isScrolled ? "md:inline-flex" : "sm:inline-flex")}
+>
+  Hover Me
+     {isScrolled ? "Join" : "Get Started"}
+ </InteractiveHoverButton>   
             </div>
           </div>
         </div>
@@ -127,8 +128,7 @@ export function FloatingHeader() {
                 </a>
               ))}
               <div className="pt-4 border-t">
-                <Button className="w-full">Get Started</Button>
-              </div>
+<InteractiveHoverButton>Hover Me</InteractiveHoverButton>              </div>
             </nav>
           </div>
         </div>

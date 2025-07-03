@@ -1,15 +1,21 @@
 import { AnimatedBeamMultipleOutputDemo } from "@/components/all-in-one";
-import { FloatingHeader } from "@/components/floating-header";
+import { GallerySection } from "@/components/gallery-section";
 import { GameHero } from "@/components/game-hero";
+ import { TextReveal } from "@/components/magicui/text-reveal";
+import { RetroGridDemo } from "@/components/retro-grid";
 import { ScrollBasedVelocityDemo } from "@/components/text-scroll";
- 
+  
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <FloatingHeader />
       <GameHero />
       <ScrollBasedVelocityDemo/>
       <AnimatedBeamMultipleOutputDemo/>
+      <GallerySection/>
+      <TextReveal>Rudreadeb khankir chele. pod e bash dhukiye handle mare.</TextReveal>
+      <RetroGridDemo/>
+     
+     
       </div>
   );
 }
