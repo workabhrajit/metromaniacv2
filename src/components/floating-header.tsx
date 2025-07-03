@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react"
 import { Menu, X, Home, User, Settings, Mail } from "lucide-react"
-import { Button } from "./ui/button"
-import { ThemeToggle } from "./theme-toggle"
+import { Button } from "@/components/ui/button"
+import { ThemeToggle } from "@/components/theme-toggle"
 import { cn } from "@/lib/utils"
 
 export function FloatingHeader() {
@@ -61,12 +61,20 @@ export function FloatingHeader() {
                   key={item.label}
                   href={item.href}
                   className={cn(
-                    "flex items-center transition-all duration-300 hover:text-primary",
-                    isScrolled ? "p-2 rounded-full hover:bg-accent" : "px-3 py-2 rounded-lg hover:bg-accent",
+                    "flex items-center transition-all duration-300 hover:text-primary relative group overflow-hidden",
+                    isScrolled ? "p-2 rounded-full" : "px-3 py-2 rounded-lg",
                   )}
                 >
-                  <item.icon className={cn("transition-all duration-500", isScrolled ? "h-4 w-4" : "h-4 w-4 mr-2")} />
-                  {!isScrolled && <span className="text-sm font-medium">{item.label}</span>}
+                  {/* Animated cube background */}
+                  <div className="absolute inset-0 bg-gradient-to-br from-violet-600/80 to-blue-600/80 transform scale-0 group-hover:scale-100 transition-transform duration-300 ease-out origin-center rounded-lg opacity-0 group-hover:opacity-100" />
+
+                  {/* Cube sliding effect */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-violet-500/60 to-indigo-500/60 transform translate-y-full group-hover:translate-y-0 transition-transform duration-400 ease-out rounded-lg" />
+
+                  <item.icon
+                    className={cn("transition-all duration-500 relative z-10", isScrolled ? "h-4 w-4" : "h-4 w-4 mr-2")}
+                  />
+                  {!isScrolled && <span className="text-sm font-medium relative z-10">{item.label}</span>}
                 </a>
               ))}
             </nav>
