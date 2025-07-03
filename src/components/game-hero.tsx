@@ -125,7 +125,7 @@ export function GameHero() {
           )}
         >
           Immerse yourself in breathtaking worlds, engage in thrilling adventures, and experience gaming like never
-          before. Our studio crafts unforgettable interactive experiences that push the boundaries of what's possible.
+          before. Our studio crafts unforgettable interactive experiences that push the boundaries of what s possible.
         </p>
 
         {/* Stats */}
