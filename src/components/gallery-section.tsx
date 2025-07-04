@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Image from "next/image"
 import { ChevronLeft, ChevronRight, Play, Maximize2, X, Star } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
@@ -14,12 +15,13 @@ export function GallerySection() {
     setIsVisible(true)
   }, [])
 
-  // Gallery items with different types
   const galleryItems = [
     {
       id: 1,
       type: "image",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/placeholder.svg",
+      width: 800,
+      height: 600,
       title: "Quantum Realms - Epic Battle",
       category: "Screenshots",
       description: "Intense combat sequences in our flagship title",
@@ -27,7 +29,9 @@ export function GallerySection() {
     {
       id: 2,
       type: "video",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/placeholder.svg",
+      width: 800,
+      height: 600,
       title: "Gameplay Trailer",
       category: "Videos",
       description: "Official gameplay reveal trailer",
@@ -35,7 +39,9 @@ export function GallerySection() {
     {
       id: 3,
       type: "image",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/placeholder.svg",
+      width: 800,
+      height: 600,
       title: "Character Design",
       category: "Concept Art",
       description: "Early character concept designs",
@@ -43,7 +49,9 @@ export function GallerySection() {
     {
       id: 4,
       type: "image",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/placeholder.svg",
+      width: 800,
+      height: 600,
       title: "Environment Art",
       category: "Screenshots",
       description: "Stunning world environments",
@@ -51,7 +59,9 @@ export function GallerySection() {
     {
       id: 5,
       type: "video",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/placeholder.svg",
+      width: 800,
+      height: 600,
       title: "Behind the Scenes",
       category: "Videos",
       description: "Development process documentary",
@@ -59,7 +69,9 @@ export function GallerySection() {
     {
       id: 6,
       type: "image",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/placeholder.svg",
+      width: 800,
+      height: 600,
       title: "UI/UX Design",
       category: "Interface",
       description: "Game interface and menu designs",
@@ -67,7 +79,9 @@ export function GallerySection() {
     {
       id: 7,
       type: "image",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/placeholder.svg",
+      width: 800,
+      height: 600,
       title: "Weapon Gallery",
       category: "Assets",
       description: "Detailed weapon and equipment showcase",
@@ -75,7 +89,9 @@ export function GallerySection() {
     {
       id: 8,
       type: "image",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/placeholder.svg",
+      width: 800,
+      height: 600,
       title: "Cinematic Scenes",
       category: "Screenshots",
       description: "Epic story moments and cutscenes",
@@ -110,8 +126,6 @@ export function GallerySection() {
       {/* Background Effects */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[linear-gradient(rgba(139,92,246,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(139,92,246,0.03)_1px,transparent_1px)] bg-[size:100px_100px]" />
-
-        {/* Floating background elements */}
         {Array.from({ length: 6 }).map((_, i) => (
           <div
             key={i}
@@ -190,17 +204,16 @@ export function GallerySection() {
               className="group relative aspect-[4/3] rounded-2xl overflow-hidden bg-slate-800/30 border border-slate-700/30 hover:border-violet-500/50 transition-all duration-500 cursor-pointer"
               onClick={() => openLightbox(index)}
             >
-              {/* Image */}
-              <img
-                src={item.src || "/placeholder.svg"}
+              <Image
+                src={item.src}
                 alt={item.title}
+                width={item.width}
+                height={item.height}
                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
               />
 
-              {/* Overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
-              {/* Video Play Button */}
               {item.type === "video" && (
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-16 h-16 bg-violet-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-violet-400/50 group-hover:scale-110 transition-transform duration-300">
@@ -209,7 +222,6 @@ export function GallerySection() {
                 </div>
               )}
 
-              {/* Content */}
               <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
                   <span className="inline-block px-3 py-1 bg-violet-600/80 text-white text-xs font-medium rounded-full mb-2 backdrop-blur-sm">
@@ -220,20 +232,18 @@ export function GallerySection() {
                 </div>
               </div>
 
-              {/* Expand Icon */}
               <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 <div className="w-8 h-8 bg-slate-900/80 rounded-full flex items-center justify-center backdrop-blur-sm">
                   <Maximize2 className="w-4 h-4 text-white" />
                 </div>
               </div>
 
-              {/* Shine Effect */}
               <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-out" />
             </div>
           ))}
         </div>
 
-        {/* Load More Button */}
+        {/* Load More */}
         <div className="text-center mt-12">
           <Button
             size="lg"
@@ -246,11 +256,9 @@ export function GallerySection() {
         </div>
       </div>
 
-      {/* Lightbox Modal */}
       {selectedImage !== null && (
         <div className="fixed inset-0 z-50 bg-black/95 backdrop-blur-sm flex items-center justify-center p-4">
           <div className="relative max-w-7xl max-h-full">
-            {/* Close Button */}
             <button
               onClick={closeLightbox}
               className="absolute top-4 right-4 z-10 w-12 h-12 bg-slate-900/80 rounded-full flex items-center justify-center backdrop-blur-sm border border-slate-700/50 hover:bg-slate-800 transition-colors duration-300"
@@ -258,7 +266,6 @@ export function GallerySection() {
               <X className="w-6 h-6 text-white" />
             </button>
 
-            {/* Navigation Buttons */}
             <button
               onClick={prevSlide}
               className="absolute left-4 top-1/2 -translate-y-1/2 z-10 w-12 h-12 bg-slate-900/80 rounded-full flex items-center justify-center backdrop-blur-sm border border-slate-700/50 hover:bg-slate-800 transition-colors duration-300"
@@ -273,16 +280,16 @@ export function GallerySection() {
               <ChevronRight className="w-6 h-6 text-white" />
             </button>
 
-            {/* Main Image */}
             <div className="relative">
-              <img
-                src={filteredItems[currentSlide]?.src || "/placeholder.svg"}
-                alt={filteredItems[currentSlide]?.title}
+              <Image
+                src={filteredItems[currentSlide].src}
+                alt={filteredItems[currentSlide].title}
+                width={filteredItems[currentSlide].width}
+                height={filteredItems[currentSlide].height}
                 className="max-w-full max-h-[80vh] object-contain rounded-2xl"
               />
 
-              {/* Video Play Button in Lightbox */}
-              {filteredItems[currentSlide]?.type === "video" && (
+              {filteredItems[currentSlide].type === "video" && (
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-20 h-20 bg-violet-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-violet-400/50 hover:scale-110 transition-transform duration-300 cursor-pointer">
                     <Play className="w-8 h-8 text-white ml-1" />
@@ -291,18 +298,17 @@ export function GallerySection() {
               )}
             </div>
 
-            {/* Image Info */}
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-8 rounded-b-2xl">
               <div className="flex items-center gap-4 mb-2">
                 <span className="px-3 py-1 bg-violet-600/80 text-white text-sm font-medium rounded-full backdrop-blur-sm">
-                  {filteredItems[currentSlide]?.category}
+                  {filteredItems[currentSlide].category}
                 </span>
                 <span className="text-slate-400 text-sm">
                   {currentSlide + 1} of {filteredItems.length}
                 </span>
               </div>
-              <h3 className="text-2xl font-semibold text-white mb-2">{filteredItems[currentSlide]?.title}</h3>
-              <p className="text-slate-300">{filteredItems[currentSlide]?.description}</p>
+              <h3 className="text-2xl font-semibold text-white mb-2">{filteredItems[currentSlide].title}</h3>
+              <p className="text-slate-300">{filteredItems[currentSlide].description}</p>
             </div>
           </div>
         </div>
