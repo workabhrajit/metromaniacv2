@@ -1026,7 +1026,7 @@ function FloatingHeader() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
                 className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("fixed top-0 left-1/2 -translate-x-1/2 z-50 transition-all duration-500 ease-in-out", isScrolled ? "top-4 w-auto max-w-fit" : "top-0 w-full max-w-7xl"),
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("backdrop-blur-md bg-background/80 border shadow-lg transition-all duration-500 ease-in-out", isScrolled ? "rounded-full px-4 py-2 mx-4" : "rounded-none md:rounded-2xl px-6 py-4 mx-4 md:mx-6 mt-4"),
+                    className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("backdrop-blur-md bg-background/80 border shadow-lg transition-all duration-500 ease-in-out rounded-full", isScrolled ? "rounded-full px-4 py-2 mx-4" : "rounded-full md:rounded-full px-6 py-4 mx-4 md:mx-6 mt-4"),
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "flex items-center justify-between",
                         children: [
@@ -1049,17 +1049,17 @@ function FloatingHeader() {
                                 className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("hidden md:flex items-center transition-all duration-500 ease-in-out", isScrolled ? "space-x-1" : "space-x-6"),
                                 children: navItems.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: item.href,
-                                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("flex items-center transition-all duration-300 hover:text-primary relative group overflow-hidden", isScrolled ? "p-2 rounded-full" : "px-3 py-2 rounded-lg"),
+                                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["cn"])("flex items-center transition-all duration-300 hover:text-primary relative group overflow-hidden", isScrolled ? "p-2 rounded-full" : "px-3 py-2 rounded-full"),
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute inset-0 bg-gradient-to-br from-violet-600/80 to-blue-600/80 transform scale-0 group-hover:scale-100 transition-transform duration-300 ease-out origin-center rounded-lg opacity-0 group-hover:opacity-100"
+                                                className: "absolute inset-0 bg-gradient-to-br from-violet-600/80 to-blue-600/80 transform scale-0 group-hover:scale-100 transition-transform duration-300 ease-out origin-center rounded-full opacity-0 group-hover:opacity-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/floating-header.tsx",
                                                 lineNumber: 70,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute inset-0 bg-gradient-to-r from-violet-500/60 to-indigo-500/60 transform translate-y-full group-hover:translate-y-0 transition-transform duration-400 ease-out rounded-lg"
+                                                className: "absolute inset-0 bg-gradient-to-r from-violet-500/60 to-indigo-500/60 transform translate-y-full group-hover:translate-y-0 transition-transform duration-400 ease-out rounded-full"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/floating-header.tsx",
                                                 lineNumber: 73,
@@ -1156,7 +1156,7 @@ function FloatingHeader() {
                 columnNumber: 7
             }, this),
             isMobileMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "fixed inset-0 z-40 md:hidden",
+                className: "fixed inset-0 z-40 md:hidden mt-2",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "fixed inset-0 bg-background/80 backdrop-blur-sm",

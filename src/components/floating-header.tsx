@@ -38,8 +38,8 @@ export function FloatingHeader() {
       >
         <div
           className={cn(
-            "backdrop-blur-md bg-background/80 border shadow-lg transition-all duration-500 ease-in-out",
-            isScrolled ? "rounded-full px-4 py-2 mx-4" : "rounded-none md:rounded-2xl px-6 py-4 mx-4 md:mx-6 mt-4",
+            "backdrop-blur-md bg-background/80 border shadow-lg transition-all duration-500 ease-in-out rounded-full",
+            isScrolled ? "rounded-full px-4 py-2 mx-4" : "rounded-full md:rounded-full px-6 py-4 mx-4 md:mx-6 mt-4",
           )}
         >
           <div className="flex items-center justify-between">
@@ -63,14 +63,14 @@ export function FloatingHeader() {
                   href={item.href}
                   className={cn(
                     "flex items-center transition-all duration-300 hover:text-primary relative group overflow-hidden",
-                    isScrolled ? "p-2 rounded-full" : "px-3 py-2 rounded-lg",
+                    isScrolled ? "p-2 rounded-full" : "px-3 py-2 rounded-full",
                   )}
                 >
                   {/* Animated cube background */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-violet-600/80 to-blue-600/80 transform scale-0 group-hover:scale-100 transition-transform duration-300 ease-out origin-center rounded-lg opacity-0 group-hover:opacity-100" />
+                  <div className="absolute inset-0 bg-gradient-to-br from-violet-600/80 to-blue-600/80 transform scale-0 group-hover:scale-100 transition-transform duration-300 ease-out origin-center rounded-full opacity-0 group-hover:opacity-100" />
 
                   {/* Cube sliding effect */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-violet-500/60 to-indigo-500/60 transform translate-y-full group-hover:translate-y-0 transition-transform duration-400 ease-out rounded-lg" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-violet-500/60 to-indigo-500/60 transform translate-y-full group-hover:translate-y-0 transition-transform duration-400 ease-out rounded-full" />
 
                   <item.icon
                     className={cn("transition-all duration-500 relative z-10", isScrolled ? "h-4 w-4" : "h-4 w-4 mr-2")}
@@ -112,7 +112,7 @@ export function FloatingHeader() {
 
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
-        <div className="fixed inset-0 z-40 md:hidden">
+        <div className="fixed inset-0 z-40 md:hidden mt-2">
           <div className="fixed inset-0 bg-background/80 backdrop-blur-sm" onClick={() => setIsMobileMenuOpen(false)} />
           <div className="fixed top-20 left-4 right-4 bg-background border rounded-2xl shadow-lg p-6">
             <nav className="space-y-4">
