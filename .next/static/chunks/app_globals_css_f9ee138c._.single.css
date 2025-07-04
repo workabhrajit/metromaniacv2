@@ -715,6 +715,14 @@
     margin-left: calc(var(--spacing) * 2);
   }
 
+  .ml-4 {
+    margin-left: calc(var(--spacing) * 4);
+  }
+
+  .ml-6 {
+    margin-left: calc(var(--spacing) * 6);
+  }
+
   .ml-auto {
     margin-left: auto;
   }
@@ -2664,6 +2672,10 @@
 
   .pr-2 {
     padding-right: calc(var(--spacing) * 2);
+  }
+
+  .pl-4 {
+    padding-left: calc(var(--spacing) * 4);
   }
 
   .pl-8 {
