@@ -7,11 +7,12 @@ import { Button } from "@/components/ui/button"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { cn } from "@/lib/utils"
 import { InteractiveHoverButton } from "./magicui/interactive-hover-button"
+import { useTheme } from "next-themes"
 
 export function FloatingHeader() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
-
+ const { resolvedTheme } = useTheme()
   useEffect(() => {
     const handleScroll = () => {
       const scrollPosition = window.scrollY
@@ -52,7 +53,7 @@ export function FloatingHeader() {
     )}            >
  
  <Image
-  src="/logo2.png"
+      src={resolvedTheme === "dark" ? "/logo2.png" : "/logo3.png"}
   alt="Logo"
   width={160}
   height={40}
