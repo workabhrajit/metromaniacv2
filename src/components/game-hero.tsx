@@ -56,7 +56,7 @@ export function GameHero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10",
           )}
         >
-          <div className="w-1.5 h-1.5 md:w-2 md:h-2 bg-violet-400 rounded-full" />
+          <div className="w-1.5 h-1.5 md:w-2 md:h-2 bg-slate-400 rounded-full" />
           <span className="text-xs md:text-sm font-medium text-slate-300 tracking-wide">AVAILABLE NOW</span>
         </div>
 
@@ -98,7 +98,7 @@ export function GameHero() {
                 {/* Screen */}
                 <div className="w-full h-full bg-black rounded-lg md:rounded-xl overflow-hidden relative">
                   {/* Gaming Image Display */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-violet-900/50 to-slate-900">
+                  <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-slate-900/50 to-slate-900">
                     {/* Main Game Image */}
                     <video
   src="/vdo.mp4"
@@ -115,15 +115,15 @@ export function GameHero() {
 
                     {/* Minimal Game Info Overlay */}
                     <div className="absolute bottom-2 md:bottom-4 left-2 md:left-4 right-2 md:right-4">
-                      <div className="bg-black/80 backdrop-blur-sm rounded-md md:rounded-lg p-2 md:p-4 border border-violet-500/30">
+                      <div className="bg-black/80 backdrop-blur-sm rounded-md md:rounded-lg p-2 md:p-4 border border-slate-500/30">
                         <div className="flex justify-between items-center">
                           <div>
-                            <div className="text-violet-400 text-sm md:text-lg font-medium mb-0.5 md:mb-1">
+                            <div className="text-slate-400 text-sm md:text-lg font-medium mb-0.5 md:mb-1">
                               QUANTUM REALMS
                             </div>
                             <div className="text-slate-400 text-xs md:text-sm">Ultra Settings • RTX ON • 4K</div>
                           </div>
-                          <div className="flex items-center gap-1 md:gap-2 text-violet-400 text-xs md:text-sm">
+                          <div className="flex items-center gap-1 md:gap-2 text-slate-400 text-xs md:text-sm">
                             <Zap className="w-3 h-3 md:w-4 md:h-4" />
                             <span>144 FPS</span>
                           </div>
@@ -143,18 +143,18 @@ export function GameHero() {
               {/* Keyboard Area - Responsive */}
               <div className="w-full max-w-[280px] sm:max-w-[340px] md:max-w-[420px] lg:max-w-[500px] mx-auto h-2 md:h-4 bg-gradient-to-r from-slate-800 via-slate-700 to-slate-800 rounded-md md:rounded-lg mt-1 relative">
                 {/* RGB Lighting Effect */}
-                <div className="absolute inset-0 bg-gradient-to-r from-violet-500/30 via-purple-500/30 to-indigo-500/30 rounded-md md:rounded-lg opacity-60"></div>
+                <div className="absolute inset-0 bg-gradient-to-r from-slate-500/30 via-slate-500/30 to-indigo-500/30 rounded-md md:rounded-lg opacity-60"></div>
               </div>
 
               {/* Gaming Ambient Glow */}
-              <div className="absolute inset-0 bg-gradient-to-r from-violet-500/15 via-purple-500/15 to-indigo-500/15 rounded-xl md:rounded-2xl blur-2xl md:blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 -z-10" />
+              <div className="absolute inset-0 bg-gradient-to-r from-slate-500/15 via-slate-500/15 to-indigo-500/15 rounded-xl md:rounded-2xl blur-2xl md:blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 -z-10" />
             </div>
 
             {/* Gaming Performance Label - Hidden on mobile */}
             <div className="absolute -bottom-12 md:-bottom-16 left-1/2 transform -translate-x-1/2 opacity-0 group-hover:opacity-100 transition-all duration-500 hidden md:block">
               <div className="bg-slate-800/90 text-slate-300 px-4 md:px-6 py-2 md:py-3 rounded-lg md:rounded-xl text-xs md:text-sm backdrop-blur-sm border border-slate-700/50">
                 <div className="flex items-center gap-2">
-                  <Monitor className="w-3 h-3 md:w-4 md:h-4 text-violet-400" />
+                  <Monitor className="w-3 h-3 md:w-4 md:h-4 text-slate-400" />
                   <span>Gaming Laptop • RTX 4080 • 32GB RAM</span>
                 </div>
               </div>
@@ -176,7 +176,7 @@ export function GameHero() {
             { label: "Rating", value: "4.9", suffix: "/5" },
           ].map((stat, index) => (
             <div key={index} className="text-center group">
-              <div className="text-2xl sm:text-3xl md:text-4xl font-light text-white mb-1 md:mb-2 group-hover:text-violet-400 transition-colors duration-300">
+              <div className="text-2xl sm:text-3xl md:text-4xl font-light text-white mb-1 md:mb-2 group-hover:text-slate-400 transition-colors duration-300">
                 {stat.value}
                 <span className="text-slate-400 text-base sm:text-lg">{stat.suffix}</span>
               </div>
@@ -229,21 +229,21 @@ export function GameHero() {
             >
               <div className="flex justify-between items-start mb-4 md:mb-6">
                 <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-slate-600 to-slate-700 rounded-lg md:rounded-xl flex items-center justify-center">
-                  <div className="w-5 h-5 md:w-6 md:h-6 bg-gradient-to-br from-violet-400 to-violet-500 rounded-md md:rounded-lg"></div>
+                  <div className="w-5 h-5 md:w-6 md:h-6 bg-gradient-to-br from-slate-400 to-slate-500 rounded-md md:rounded-lg"></div>
                 </div>
-                <span className="text-xs px-2 md:px-3 py-1 bg-violet-400/10 text-violet-400 rounded-full border border-violet-400/20">
+                <span className="text-xs px-2 md:px-3 py-1 bg-slate-400/10 text-slate-400 rounded-full border border-slate-400/20">
                   {game.status}
                 </span>
               </div>
 
-              <h3 className="text-lg md:text-xl font-medium text-white mb-2 group-hover:text-violet-400 transition-colors duration-300">
+              <h3 className="text-lg md:text-xl font-medium text-white mb-2 group-hover:text-slate-400 transition-colors duration-300">
                 {game.title}
               </h3>
               <p className="text-slate-400 mb-4 text-sm">{game.genre}</p>
 
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-2">
-                  <Star className="w-4 h-4 fill-violet-400 text-violet-400" />
+                  <Star className="w-4 h-4 fill-slate-400 text-slate-400" />
                   <span className="text-sm font-medium text-slate-300">{game.rating}</span>
                 </div>
                 <Button

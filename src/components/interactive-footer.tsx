@@ -62,7 +62,7 @@ export function InteractiveFooter() {
           <div
             key={particle.id}
             className={cn(
-              "absolute rounded-full bg-violet-400/20 transition-all duration-1000 ease-out",
+              "absolute rounded-full bg-gray-900/20 transition-all duration-1000 ease-out",
               isHovered ? "scale-150 opacity-60" : "scale-100 opacity-30",
             )}
             style={{
@@ -79,7 +79,7 @@ export function InteractiveFooter() {
 
         {/* Grid pattern */}
         <div className="absolute inset-0 opacity-5">
-          <div className="absolute inset-0 bg-[linear-gradient(rgba(139,92,246,0.3)_1px,transparent_1px),linear-gradient(90deg,rgba(139,92,246,0.3)_1px,transparent_1px)] bg-[size:50px_50px]" />
+          <div className="absolute inset-0 bg-[linear-gradient(rgba(3, 2, 6, 0.3)_1px,transparent_1px),linear-gradient(90deg,rgba(0, 0, 0, 0.3)_1px,transparent_1px)] bg-[size:50px_50px]" />
         </div>
 
         {/* Animated waves */}
@@ -107,7 +107,7 @@ export function InteractiveFooter() {
           {/* Column 1: Company Info */}
           <div className="space-y-6">
             <div>
-              <h3 className="text-2xl font-bold bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent mb-4">
+              <h3 className="text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-950 bg-clip-text text-transparent mb-4">
                 GameStudio
               </h3>
               <p className="text-slate-400 leading-relaxed">
@@ -128,7 +128,7 @@ export function InteractiveFooter() {
                   aria-label={social.label}
                 >
                   <social.icon className="w-5 h-5 text-slate-400 group-hover:text-violet-400 transition-colors duration-300" />
-                  <div className="absolute inset-0 bg-gradient-to-r from-violet-500/10 to-purple-500/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-gray-900/10 to-gray-950/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </a>
               ))}
             </div>
@@ -207,7 +207,7 @@ export function InteractiveFooter() {
                   placeholder="Enter your email"
                   className="bg-slate-800/50 border-slate-700/50 text-white placeholder:text-slate-500 focus:border-violet-500/50 focus:ring-violet-500/20 transition-all duration-300"
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-violet-500/5 to-purple-500/5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-r from-gray-900/5 to-gray-950/5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
               </div>
 
               <Button className="w-full bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white border-0 transition-all duration-300 group">

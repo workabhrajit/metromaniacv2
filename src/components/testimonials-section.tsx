@@ -179,7 +179,7 @@ export function TestimonialsSection() {
         {particles.map((particle) => (
           <div
             key={particle.id}
-            className="absolute rounded-full bg-violet-400/20"
+            className="absolute rounded-full bg-gray-400/20"
             style={{
               width: `${particle.size}px`,
               height: `${particle.size}px`,
@@ -210,14 +210,14 @@ export function TestimonialsSection() {
           )}
         >
           <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-slate-800/50 border border-slate-700/50 mb-8 backdrop-blur-xl">
-            <Quote className="w-4 h-4 text-violet-400" />
+            <Quote className="w-4 h-4 text-gray-400" />
             <span className="text-sm font-medium text-slate-300 tracking-wide">PLAYER TESTIMONIALS</span>
           </div>
 
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-light mb-6 tracking-tight">
             <span className="text-white">What Players</span>
             <br />
-            <span className="bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-gray-400 to-gray-400 bg-clip-text text-transparent">
               Are Saying
             </span>
           </h2>
@@ -251,7 +251,7 @@ export function TestimonialsSection() {
                   <div className="flex flex-col items-center text-center h-full justify-center min-h-[350px]">
                     {/* Avatar */}
                     <div className="relative mb-6">
-                      <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-4 border-violet-400/30 shadow-2xl">
+                      <div className="w-20 h-20 md:w-24 md:h-24 rounded-full overflow-hidden border-4 border-gray-400/30 shadow-2xl">
                         <Image
                           src={testimonial.avatar || "/placeholder.svg"}
                           alt={testimonial.name}
@@ -260,7 +260,7 @@ export function TestimonialsSection() {
                           className="w-full h-full object-cover"
                         />
                       </div>
-                      <div className="absolute -bottom-1 -right-1 w-8 h-8 bg-gradient-to-r from-violet-600 to-purple-600 rounded-full flex items-center justify-center border-2 border-slate-900">
+                      <div className="absolute -bottom-1 -right-1 w-8 h-8 bg-gradient-to-r from-gray-600 to-gray-600 rounded-full flex items-center justify-center border-2 border-slate-900">
                         <Gamepad2 className="w-4 h-4 text-white" />
                       </div>
                     </div>
@@ -271,13 +271,13 @@ export function TestimonialsSection() {
                     </blockquote>
 
                     <h3 className="text-xl font-semibold text-white mb-1">{testimonial.name}</h3>
-                    <p className="text-violet-400 font-medium mb-1">{testimonial.role}</p>
+                    <p className="text-gray-400 font-medium mb-1">{testimonial.role}</p>
                     <p className="text-slate-400 text-sm mb-4">{testimonial.company}</p>
 
                     {/* Rating */}
                     <div className="flex gap-1">
                       {Array.from({ length: testimonial.rating }).map((_, i) => (
-                        <Star key={i} className="w-4 h-4 fill-violet-400 text-violet-400" />
+                        <Star key={i} className="w-4 h-4 fill-gray-400 text-gray-400" />
                       ))}
                     </div>
                   </div>
@@ -289,17 +289,17 @@ export function TestimonialsSection() {
             <button
               onClick={prevSlide}
               disabled={isTransitioning}
-              className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-slate-800/80 hover:bg-slate-700/80 border border-slate-600/50 hover:border-violet-500/50 rounded-full flex items-center justify-center transition-all duration-300 backdrop-blur-sm group disabled:opacity-50 disabled:cursor-not-allowed"
+              className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-slate-800/80 hover:bg-slate-700/80 border border-slate-600/50 hover:border-gray-500/50 rounded-full flex items-center justify-center transition-all duration-300 backdrop-blur-sm group disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              <ChevronLeft className="w-5 h-5 text-slate-400 group-hover:text-violet-400 transition-colors duration-300" />
+              <ChevronLeft className="w-5 h-5 text-slate-400 group-hover:text-gray-400 transition-colors duration-300" />
             </button>
 
             <button
               onClick={nextSlide}
               disabled={isTransitioning}
-              className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-slate-800/80 hover:bg-slate-700/80 border border-slate-600/50 hover:border-violet-500/50 rounded-full flex items-center justify-center transition-all duration-300 backdrop-blur-sm group disabled:opacity-50 disabled:cursor-not-allowed"
+              className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-slate-800/80 hover:bg-slate-700/80 border border-slate-600/50 hover:border-gray-500/50 rounded-full flex items-center justify-center transition-all duration-300 backdrop-blur-sm group disabled:opacity-50 disabled:cursor-not-allowed"
             >
-              <ChevronRight className="w-5 h-5 text-slate-400 group-hover:text-violet-400 transition-colors duration-300" />
+              <ChevronRight className="w-5 h-5 text-slate-400 group-hover:text-gray-400 transition-colors duration-300" />
             </button>
           </div>
         </div>
@@ -374,7 +374,7 @@ export function TestimonialsSection() {
                     return (
                       <div className="flex flex-col items-center text-center h-full justify-center">
                         <div className="relative mb-6 transform transition-transform duration-300 hover:scale-110">
-                          <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-violet-400/50 shadow-2xl">
+                          <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-gray-400/50 shadow-2xl">
                             <Image
                               src={testimonial.avatar || "/placeholder.svg"}
                               alt={testimonial.name}
@@ -383,12 +383,12 @@ export function TestimonialsSection() {
                               className="w-full h-full object-cover"
                             />
                           </div>
-                          <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-gradient-to-r from-violet-600 to-purple-600 rounded-full flex items-center justify-center border-2 border-slate-900">
+                          <div className="absolute -bottom-2 -right-2 w-10 h-10 bg-gradient-to-r from-gray-600 to-gray-600 rounded-full flex items-center justify-center border-2 border-slate-900">
                             <Gamepad2 className="w-5 h-5 text-white" />
                           </div>
                         </div>
 
-                        <div className="absolute -top-4 -left-4 text-4xl text-violet-400/20">
+                        <div className="absolute -top-4 -left-4 text-4xl text-gray-400/20">
                           <Quote className="w-12 h-12" />
                         </div>
 
@@ -397,23 +397,23 @@ export function TestimonialsSection() {
                         </blockquote>
 
                         <h3 className="text-2xl font-semibold text-white mb-2">{testimonial.name}</h3>
-                        <p className="text-violet-400 font-medium mb-1">{testimonial.role}</p>
+                        <p className="text-gray-400 font-medium mb-1">{testimonial.role}</p>
                         <p className="text-slate-400 text-sm mb-4">{testimonial.company}</p>
 
                         <div className="flex gap-1 mb-6">
                           {Array.from({ length: testimonial.rating }).map((_, i) => (
-                            <Star key={i} className="w-5 h-5 fill-violet-400 text-violet-400" />
+                            <Star key={i} className="w-5 h-5 fill-gray-400 text-gray-400" />
                           ))}
                         </div>
 
                         {/* Gaming Stats */}
                         <div className="grid grid-cols-1 gap-2 text-sm">
                           <div className="flex items-center justify-center gap-2">
-                            <Play className="w-4 h-4 text-violet-400" />
+                            <Play className="w-4 h-4 text-gray-400" />
                             <span className="text-slate-300">{testimonial.gameHours}</span>
                           </div>
                           <div className="flex items-center justify-center gap-2">
-                            <Trophy className="w-4 h-4 text-violet-400" />
+                            <Trophy className="w-4 h-4 text-gray-400" />
                             <span className="text-slate-300">{testimonial.favoriteGame}</span>
                           </div>
                         </div>
@@ -422,10 +422,10 @@ export function TestimonialsSection() {
                   })()}
 
                   {/* Enhanced Glow Effect */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-violet-500/10 via-purple-500/10 to-indigo-500/10 rounded-3xl blur-xl -z-10 transition-all duration-600" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-gray-500/10 via-gray-500/10 to-indigo-500/10 rounded-3xl blur-xl -z-10 transition-all duration-600" />
                   <div
                     className={cn(
-                      "absolute inset-0 bg-gradient-to-r from-violet-400/5 via-purple-400/5 to-indigo-400/5 rounded-3xl blur-2xl -z-20 transition-all duration-600",
+                      "absolute inset-0 bg-gradient-to-r from-gray-400/5 via-gray-400/5 to-indigo-400/5 rounded-3xl blur-2xl -z-20 transition-all duration-600",
                       isTransitioning ? "opacity-100 scale-110" : "opacity-50",
                     )}
                   />
@@ -484,17 +484,17 @@ export function TestimonialsSection() {
             <button
               onClick={prevSlide}
               disabled={isTransitioning}
-              className="absolute left-[-80px] top-1/2 -translate-y-1/2 w-12 h-12 bg-slate-800/90 hover:bg-slate-700/90 border border-slate-600/70 hover:border-violet-500/70 rounded-full flex items-center justify-center transition-all duration-300 backdrop-blur-sm group z-30 disabled:opacity-50 disabled:cursor-not-allowed hover:scale-110 shadow-lg"
+              className="absolute left-[-80px] top-1/2 -translate-y-1/2 w-12 h-12 bg-slate-800/90 hover:bg-slate-700/90 border border-slate-600/70 hover:border-gray-500/70 rounded-full flex items-center justify-center transition-all duration-300 backdrop-blur-sm group z-30 disabled:opacity-50 disabled:cursor-not-allowed hover:scale-110 shadow-lg"
             >
-              <ChevronLeft className="w-6 h-6 text-slate-300 group-hover:text-violet-400 transition-colors duration-300" />
+              <ChevronLeft className="w-6 h-6 text-slate-300 group-hover:text-gray-400 transition-colors duration-300" />
             </button>
 
             <button
               onClick={nextSlide}
               disabled={isTransitioning}
-              className="absolute right-[-80px] top-1/2 -translate-y-1/2 w-12 h-12 bg-slate-800/90 hover:bg-slate-700/90 border border-slate-600/70 hover:border-violet-500/70 rounded-full flex items-center justify-center transition-all duration-300 backdrop-blur-sm group z-30 disabled:opacity-50 disabled:cursor-not-allowed hover:scale-110 shadow-lg"
+              className="absolute right-[-80px] top-1/2 -translate-y-1/2 w-12 h-12 bg-slate-800/90 hover:bg-slate-700/90 border border-slate-600/70 hover:border-gray-500/70 rounded-full flex items-center justify-center transition-all duration-300 backdrop-blur-sm group z-30 disabled:opacity-50 disabled:cursor-not-allowed hover:scale-110 shadow-lg"
             >
-              <ChevronRight className="w-6 h-6 text-slate-300 group-hover:text-violet-400 transition-colors duration-300" />
+              <ChevronRight className="w-6 h-6 text-slate-300 group-hover:text-gray-400 transition-colors duration-300" />
             </button>
           </div>
         </div>
@@ -513,11 +513,11 @@ export function TestimonialsSection() {
               disabled={isTransitioning}
               className={cn(
                 "relative w-3 h-3 rounded-full transition-all duration-300 disabled:cursor-not-allowed",
-                index === currentSlide ? "bg-violet-400 scale-125" : "bg-slate-600 hover:bg-slate-500 hover:scale-110",
+                index === currentSlide ? "bg-gray-400 scale-125" : "bg-slate-600 hover:bg-slate-500 hover:scale-110",
               )}
             >
               {index === currentSlide && (
-                <div className="absolute inset-0 bg-violet-400 rounded-full animate-ping opacity-75" />
+                <div className="absolute inset-0 bg-gray-400 rounded-full animate-ping opacity-75" />
               )}
             </button>
           ))}
@@ -530,7 +530,7 @@ export function TestimonialsSection() {
             className={cn(
               "px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 border backdrop-blur-sm",
               isAutoPlaying
-                ? "bg-violet-600/20 text-violet-400 border-violet-500/30 hover:bg-violet-600/30"
+                ? "bg-gray-600/20 text-gray-400 border-gray-500/30 hover:bg-gray-600/30"
                 : "bg-slate-800/50 text-slate-400 border-slate-600/50 hover:bg-slate-700/50",
             )}
           >
@@ -553,12 +553,12 @@ export function TestimonialsSection() {
           ].map((stat, index) => (
             <div
               key={index}
-              className="group text-center p-6 rounded-2xl bg-slate-800/20 backdrop-blur-sm border border-slate-700/30 hover:border-violet-500/30 transition-all duration-500 hover:bg-slate-800/40 hover:scale-105 hover:-translate-y-1"
+              className="group text-center p-6 rounded-2xl bg-slate-800/20 backdrop-blur-sm border border-slate-700/30 hover:border-gray-500/30 transition-all duration-500 hover:bg-slate-800/40 hover:scale-105 hover:-translate-y-1"
             >
-              <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-violet-600/20 flex items-center justify-center group-hover:bg-violet-600/30 transition-colors duration-300">
-                <stat.icon className="w-6 h-6 text-violet-400" />
+              <div className="w-12 h-12 mx-auto mb-4 rounded-full bg-gray-600/20 flex items-center justify-center group-hover:bg-gray-600/30 transition-colors duration-300">
+                <stat.icon className="w-6 h-6 text-gray-400" />
               </div>
-              <div className="text-2xl md:text-3xl font-light text-white mb-2 group-hover:text-violet-400 transition-colors duration-300">
+              <div className="text-2xl md:text-3xl font-light text-white mb-2 group-hover:text-gray-400 transition-colors duration-300">
                 {stat.number}
               </div>
               <div className="text-slate-400 text-sm uppercase tracking-wider">{stat.label}</div>

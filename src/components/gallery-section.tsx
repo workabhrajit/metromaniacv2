@@ -132,7 +132,7 @@ export function GallerySection() {
         {Array.from({ length: 6 }).map((_, i) => (
           <div
             key={i}
-            className="absolute rounded-full bg-gradient-to-br from-violet-500/5 to-purple-500/5 blur-3xl animate-pulse"
+            className="absolute rounded-full bg-gradient-to-br from-slate-500/5 to-slate-500/5 blur-3xl animate-pulse"
             style={{
               width: `${Math.random() * 300 + 200}px`,
               height: `${Math.random() * 300 + 200}px`,
@@ -154,14 +154,14 @@ export function GallerySection() {
           )}
         >
           <div className="inline-flex items-center gap-3 px-4 md:px-6 py-2 md:py-3 rounded-full bg-slate-800/50 border border-slate-700/50 mb-6 md:mb-8 backdrop-blur-xl">
-            <Star className="w-3 h-3 md:w-4 md:h-4 text-violet-400" />
+            <Star className="w-3 h-3 md:w-4 md:h-4 text-slate-400" />
             <span className="text-xs md:text-sm font-medium text-slate-300 tracking-wide">GALLERY</span>
           </div>
 
           <h2 className="text-3xl md:text-4xl lg:text-6xl font-light mb-4 md:mb-6 tracking-tight">
             <span className="text-white">Visual</span>
             <br />
-            <span className="bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-slate-400 to-slate-400 bg-clip-text text-transparent">
               Showcase
             </span>
           </h2>
@@ -185,8 +185,8 @@ export function GallerySection() {
               className={cn(
                 "px-3 md:px-6 py-2 md:py-3 rounded-full text-xs md:text-sm font-medium transition-all duration-300 border backdrop-blur-sm whitespace-nowrap",
                 activeCategory === category
-                  ? "bg-violet-600 text-white border-violet-500 shadow-lg shadow-violet-500/25"
-                  : "bg-slate-800/50 text-slate-400 border-slate-700/50 hover:bg-slate-800/80 hover:text-violet-400 hover:border-violet-500/50",
+                  ? "bg-slate-600 text-white border-slate-500 shadow-lg shadow-slate-500/25"
+                  : "bg-slate-800/50 text-slate-400 border-slate-700/50 hover:bg-slate-800/80 hover:text-slate-400 hover:border-slate-500/50",
               )}
             >
               {category}
@@ -204,7 +204,7 @@ export function GallerySection() {
           {filteredItems.map((item, index) => (
             <div
               key={item.id}
-              className="group relative aspect-[4/3] sm:aspect-[3/2] lg:aspect-[4/3] rounded-xl md:rounded-2xl overflow-hidden bg-slate-800/30 border border-slate-700/30 hover:border-violet-500/50 transition-all duration-500 cursor-pointer"
+              className="group relative aspect-[4/3] sm:aspect-[3/2] lg:aspect-[4/3] rounded-xl md:rounded-2xl overflow-hidden bg-slate-800/30 border border-slate-700/30 hover:border-slate-500/50 transition-all duration-500 cursor-pointer"
               onClick={() => openLightbox(index)}
             >
               {/* Image */}
@@ -224,7 +224,7 @@ export function GallerySection() {
               {/* Video Play Button */}
               {item.type === "video" && (
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-16 h-16 bg-violet-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-violet-400/50 group-hover:scale-110 transition-transform duration-300">
+                  <div className="w-16 h-16 bg-slate-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-slate-400/50 group-hover:scale-110 transition-transform duration-300">
                     <Play className="w-6 h-6 text-white ml-1" />
                   </div>
                 </div>
@@ -233,7 +233,7 @@ export function GallerySection() {
               {/* Content */}
               <div className="absolute bottom-0 left-0 right-0 p-3 md:p-6 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
-                  <span className="inline-block px-2 md:px-3 py-1 bg-violet-600/80 text-white text-xs font-medium rounded-full mb-1 md:mb-2 backdrop-blur-sm">
+                  <span className="inline-block px-2 md:px-3 py-1 bg-slate-600/80 text-white text-xs font-medium rounded-full mb-1 md:mb-2 backdrop-blur-sm">
                     {item.category}
                   </span>
                   <h3 className="text-white font-semibold mb-1 text-sm md:text-base line-clamp-1">{item.title}</h3>
@@ -259,7 +259,7 @@ export function GallerySection() {
           <Button
             size="lg"
             variant="outline"
-            className="group px-6 md:px-8 py-4 md:py-6 text-base md:text-lg font-medium rounded-xl bg-transparent border-slate-600 text-slate-300 hover:bg-slate-800 hover:border-violet-500 transition-all duration-300 w-full sm:w-auto"
+            className="group px-6 md:px-8 py-4 md:py-6 text-base md:text-lg font-medium rounded-xl bg-transparent border-slate-600 text-slate-300 hover:bg-slate-800 hover:border-slate-500 transition-all duration-300 w-full sm:w-auto"
           >
             Load More Content
             <ChevronRight className="w-4 h-4 md:w-5 md:h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
@@ -309,7 +309,7 @@ export function GallerySection() {
               {/* Video Play Button in Lightbox */}
               {filteredItems[currentSlide]?.type === "video" && (
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="w-16 h-16 md:w-20 md:h-20 bg-violet-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-violet-400/50 hover:scale-110 transition-transform duration-300 cursor-pointer">
+                  <div className="w-16 h-16 md:w-20 md:h-20 bg-slate-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-slate-400/50 hover:scale-110 transition-transform duration-300 cursor-pointer">
                     <Play className="w-6 h-6 md:w-8 md:h-8 text-white ml-1" />
                   </div>
                 </div>
@@ -319,7 +319,7 @@ export function GallerySection() {
             {/* Image Info */}
             <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/90 to-transparent p-4 md:p-8 rounded-b-xl md:rounded-b-2xl">
               <div className="flex items-center gap-2 md:gap-4 mb-2">
-                <span className="px-2 md:px-3 py-1 bg-violet-600/80 text-white text-xs md:text-sm font-medium rounded-full backdrop-blur-sm">
+                <span className="px-2 md:px-3 py-1 bg-slate-600/80 text-white text-xs md:text-sm font-medium rounded-full backdrop-blur-sm">
                   {filteredItems[currentSlide]?.category}
                 </span>
                 <span className="text-slate-400 text-xs md:text-sm">

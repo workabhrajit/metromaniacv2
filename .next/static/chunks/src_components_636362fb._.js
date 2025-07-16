@@ -1588,7 +1588,7 @@ function GallerySection() {
                     Array.from({
                         length: 6
                     }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "absolute rounded-full bg-gradient-to-br from-violet-500/5 to-purple-500/5 blur-3xl animate-pulse",
+                            className: "absolute rounded-full bg-gradient-to-br from-gray-500/5 to-gray-500/5 blur-3xl animate-pulse",
                             style: {
                                 width: `${Math.random() * 300 + 200}px`,
                                 height: `${Math.random() * 300 + 200}px`,
@@ -1618,7 +1618,7 @@ function GallerySection() {
                                 className: "inline-flex items-center gap-3 px-4 md:px-6 py-2 md:py-3 rounded-full bg-slate-800/50 border border-slate-700/50 mb-6 md:mb-8 backdrop-blur-xl",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
-                                        className: "w-3 h-3 md:w-4 md:h-4 text-violet-400"
+                                        className: "w-3 h-3 md:w-4 md:h-4 text-gray-400"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/gallery-section.tsx",
                                         lineNumber: 157,
@@ -1655,7 +1655,7 @@ function GallerySection() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent",
+                                        className: "bg-gradient-to-r from-gray-400 to-gray-400 bg-clip-text text-transparent",
                                         children: "Showcase"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/gallery-section.tsx",
@@ -1686,7 +1686,7 @@ function GallerySection() {
                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("flex flex-wrap justify-center gap-2 md:gap-4 mb-8 md:mb-12 px-4 transition-all duration-1000 ease-out delay-200", isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"),
                         children: categories.map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: ()=>setActiveCategory(category),
-                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("px-3 md:px-6 py-2 md:py-3 rounded-full text-xs md:text-sm font-medium transition-all duration-300 border backdrop-blur-sm whitespace-nowrap", activeCategory === category ? "bg-violet-600 text-white border-violet-500 shadow-lg shadow-violet-500/25" : "bg-slate-800/50 text-slate-400 border-slate-700/50 hover:bg-slate-800/80 hover:text-violet-400 hover:border-violet-500/50"),
+                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("px-3 md:px-6 py-2 md:py-3 rounded-full text-xs md:text-sm font-medium transition-all duration-300 border backdrop-blur-sm whitespace-nowrap", activeCategory === category ? "bg-gray-600 text-white border-gray-500 shadow-lg shadow-gray-500/25" : "bg-slate-800/50 text-slate-400 border-slate-700/50 hover:bg-slate-800/80 hover:text-gray-400 hover:border-gray-500/50"),
                                 children: category
                             }, category, false, {
                                 fileName: "[project]/src/components/gallery-section.tsx",
@@ -1701,7 +1701,7 @@ function GallerySection() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 transition-all duration-1000 ease-out delay-400", isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"),
                         children: filteredItems.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "group relative aspect-[4/3] sm:aspect-[3/2] lg:aspect-[4/3] rounded-xl md:rounded-2xl overflow-hidden bg-slate-800/30 border border-slate-700/30 hover:border-violet-500/50 transition-all duration-500 cursor-pointer",
+                                className: "group relative aspect-[4/3] sm:aspect-[3/2] lg:aspect-[4/3] rounded-xl md:rounded-2xl overflow-hidden bg-slate-800/30 border border-slate-700/30 hover:border-gray-500/50 transition-all duration-500 cursor-pointer",
                                 onClick: ()=>openLightbox(index),
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1727,7 +1727,7 @@ function GallerySection() {
                                     item.type === "video" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-0 flex items-center justify-center",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-16 h-16 bg-violet-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-violet-400/50 group-hover:scale-110 transition-transform duration-300",
+                                            className: "w-16 h-16 bg-gray-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-gray-400/50 group-hover:scale-110 transition-transform duration-300",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$play$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Play$3e$__["Play"], {
                                                 className: "w-6 h-6 text-white ml-1"
                                             }, void 0, false, {
@@ -1751,7 +1751,7 @@ function GallerySection() {
                                             className: "opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "inline-block px-2 md:px-3 py-1 bg-violet-600/80 text-white text-xs font-medium rounded-full mb-1 md:mb-2 backdrop-blur-sm",
+                                                    className: "inline-block px-2 md:px-3 py-1 bg-gray-600/80 text-white text-xs font-medium rounded-full mb-1 md:mb-2 backdrop-blur-sm",
                                                     children: item.category
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/gallery-section.tsx",
@@ -1829,7 +1829,7 @@ function GallerySection() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                             size: "lg",
                             variant: "outline",
-                            className: "group px-6 md:px-8 py-4 md:py-6 text-base md:text-lg font-medium rounded-xl bg-transparent border-slate-600 text-slate-300 hover:bg-slate-800 hover:border-violet-500 transition-all duration-300 w-full sm:w-auto",
+                            className: "group px-6 md:px-8 py-4 md:py-6 text-base md:text-lg font-medium rounded-xl bg-transparent border-slate-600 text-slate-300 hover:bg-slate-800 hover:border-gray-500 transition-all duration-300 w-full sm:w-auto",
                             children: [
                                 "Load More Content",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
@@ -1925,7 +1925,7 @@ function GallerySection() {
                                 filteredItems[currentSlide]?.type === "video" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute inset-0 flex items-center justify-center",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-16 h-16 md:w-20 md:h-20 bg-violet-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-violet-400/50 hover:scale-110 transition-transform duration-300 cursor-pointer",
+                                        className: "w-16 h-16 md:w-20 md:h-20 bg-gray-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-gray-400/50 hover:scale-110 transition-transform duration-300 cursor-pointer",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$play$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Play$3e$__["Play"], {
                                             className: "w-6 h-6 md:w-8 md:h-8 text-white ml-1"
                                         }, void 0, false, {
@@ -1956,7 +1956,7 @@ function GallerySection() {
                                     className: "flex items-center gap-2 md:gap-4 mb-2",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "px-2 md:px-3 py-1 bg-violet-600/80 text-white text-xs md:text-sm font-medium rounded-full backdrop-blur-sm",
+                                            className: "px-2 md:px-3 py-1 bg-gray-600/80 text-white text-xs md:text-sm font-medium rounded-full backdrop-blur-sm",
                                             children: filteredItems[currentSlide]?.category
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/gallery-section.tsx",
@@ -2117,7 +2117,7 @@ function GameHero() {
                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("inline-flex items-center gap-2 md:gap-3 px-4 md:px-6 py-2 md:py-3 rounded-full bg-slate-800/50 border border-slate-700/50 mb-8 md:mb-12 transition-all duration-1000 ease-out backdrop-blur-xl", isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"),
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "w-1.5 h-1.5 md:w-2 md:h-2 bg-violet-400 rounded-full"
+                                className: "w-1.5 h-1.5 md:w-2 md:h-2 bg-gray-400 rounded-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/game-hero.tsx",
                                 lineNumber: 57,
@@ -2189,7 +2189,7 @@ function GameHero() {
                                                 className: "w-full h-full bg-black rounded-lg md:rounded-xl overflow-hidden relative",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "absolute inset-0 bg-gradient-to-br from-slate-900 via-violet-900/50 to-slate-900",
+                                                        className: "absolute inset-0 bg-gradient-to-br from-slate-900 via-gray-900/50 to-slate-900",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
                                                                 src: "/vdo.mp4",
@@ -2213,14 +2213,14 @@ function GameHero() {
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "absolute bottom-2 md:bottom-4 left-2 md:left-4 right-2 md:right-4",
                                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                    className: "bg-black/80 backdrop-blur-sm rounded-md md:rounded-lg p-2 md:p-4 border border-violet-500/30",
+                                                                    className: "bg-black/80 backdrop-blur-sm rounded-md md:rounded-lg p-2 md:p-4 border border-gray-500/30",
                                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         className: "flex justify-between items-center",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                                 children: [
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                        className: "text-violet-400 text-sm md:text-lg font-medium mb-0.5 md:mb-1",
+                                                                                        className: "text-gray-400 text-sm md:text-lg font-medium mb-0.5 md:mb-1",
                                                                                         children: "QUANTUM REALMS"
                                                                                     }, void 0, false, {
                                                                                         fileName: "[project]/src/components/game-hero.tsx",
@@ -2242,7 +2242,7 @@ function GameHero() {
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "flex items-center gap-1 md:gap-2 text-violet-400 text-xs md:text-sm",
+                                                                                className: "flex items-center gap-1 md:gap-2 text-gray-400 text-xs md:text-sm",
                                                                                 children: [
                                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"], {
                                                                                         className: "w-3 h-3 md:w-4 md:h-4"
@@ -2314,7 +2314,7 @@ function GameHero() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "w-full max-w-[280px] sm:max-w-[340px] md:max-w-[420px] lg:max-w-[500px] mx-auto h-2 md:h-4 bg-gradient-to-r from-slate-800 via-slate-700 to-slate-800 rounded-md md:rounded-lg mt-1 relative",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute inset-0 bg-gradient-to-r from-violet-500/30 via-purple-500/30 to-indigo-500/30 rounded-md md:rounded-lg opacity-60"
+                                                className: "absolute inset-0 bg-gradient-to-r from-gray-500/30 via-gray-500/30 to-indigo-500/30 rounded-md md:rounded-lg opacity-60"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/game-hero.tsx",
                                                 lineNumber: 144,
@@ -2326,7 +2326,7 @@ function GameHero() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute inset-0 bg-gradient-to-r from-violet-500/15 via-purple-500/15 to-indigo-500/15 rounded-xl md:rounded-2xl blur-2xl md:blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 -z-10"
+                                            className: "absolute inset-0 bg-gradient-to-r from-gray-500/15 via-gray-500/15 to-indigo-500/15 rounded-xl md:rounded-2xl blur-2xl md:blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 -z-10"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/game-hero.tsx",
                                             lineNumber: 148,
@@ -2346,7 +2346,7 @@ function GameHero() {
                                             className: "flex items-center gap-2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$monitor$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Monitor$3e$__["Monitor"], {
-                                                    className: "w-3 h-3 md:w-4 md:h-4 text-violet-400"
+                                                    className: "w-3 h-3 md:w-4 md:h-4 text-gray-400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/game-hero.tsx",
                                                     lineNumber: 155,
@@ -2413,7 +2413,7 @@ function GameHero() {
                                 className: "text-center group",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "text-2xl sm:text-3xl md:text-4xl font-light text-white mb-1 md:mb-2 group-hover:text-violet-400 transition-colors duration-300",
+                                        className: "text-2xl sm:text-3xl md:text-4xl font-light text-white mb-1 md:mb-2 group-hover:text-gray-400 transition-colors duration-300",
                                         children: [
                                             stat.value,
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2532,7 +2532,7 @@ function GameHero() {
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                 className: "w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-slate-600 to-slate-700 rounded-lg md:rounded-xl flex items-center justify-center",
                                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "w-5 h-5 md:w-6 md:h-6 bg-gradient-to-br from-violet-400 to-violet-500 rounded-md md:rounded-lg"
+                                                    className: "w-5 h-5 md:w-6 md:h-6 bg-gradient-to-br from-gray-400 to-gray-500 rounded-md md:rounded-lg"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/game-hero.tsx",
                                                     lineNumber: 230,
@@ -2544,7 +2544,7 @@ function GameHero() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "text-xs px-2 md:px-3 py-1 bg-violet-400/10 text-violet-400 rounded-full border border-violet-400/20",
+                                                className: "text-xs px-2 md:px-3 py-1 bg-gray-400/10 text-gray-400 rounded-full border border-gray-400/20",
                                                 children: game.status
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/game-hero.tsx",
@@ -2558,7 +2558,7 @@ function GameHero() {
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        className: "text-lg md:text-xl font-medium text-white mb-2 group-hover:text-violet-400 transition-colors duration-300",
+                                        className: "text-lg md:text-xl font-medium text-white mb-2 group-hover:text-gray-400 transition-colors duration-300",
                                         children: game.title
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/game-hero.tsx",
@@ -2580,7 +2580,7 @@ function GameHero() {
                                                 className: "flex items-center gap-2",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
-                                                        className: "w-4 h-4 fill-violet-400 text-violet-400"
+                                                        className: "w-4 h-4 fill-gray-400 text-gray-400"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/game-hero.tsx",
                                                         lineNumber: 244,
@@ -3065,13 +3065,13 @@ function ScatteredTeamSection() {
     const getColorClasses = (color)=>{
         switch(color){
             case "violet":
-                return "border-violet-400/30 shadow-violet-400/20";
+                return "border-gray-400/30 shadow-gray-400/20";
             case "purple":
-                return "border-purple-400/30 shadow-purple-400/20";
+                return "border-gray-400/30 shadow-gray-400/20";
             case "indigo":
                 return "border-indigo-400/30 shadow-indigo-400/20";
             default:
-                return "border-violet-400/30 shadow-violet-400/20";
+                return "border-gray-400/30 shadow-gray-400/20";
         }
     };
     // Floating particles
@@ -3139,7 +3139,7 @@ function ScatteredTeamSection() {
                                 animationDelay: `${particle.animationDelay}s`,
                                 animationIterationCount: "infinite"
                             },
-                            className: "jsx-29ae1a6c26e0367f" + " " + "absolute rounded-full bg-violet-400/20"
+                            className: "jsx-29ae1a6c26e0367f" + " " + "absolute rounded-full bg-gray-400/20"
                         }, particle.id, false, {
                             fileName: "[project]/src/components/scattered-team-section.tsx",
                             lineNumber: 183,
@@ -3174,7 +3174,7 @@ function ScatteredTeamSection() {
                             className: "jsx-29ae1a6c26e0367f" + " " + "inline-flex items-center gap-3 px-6 py-3 rounded-full bg-slate-800/50 border border-slate-700/50 mb-8 backdrop-blur-xl",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
-                                    className: "w-4 h-4 text-violet-400"
+                                    className: "w-4 h-4 text-gray-400"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/scattered-team-section.tsx",
                                     lineNumber: 215,
@@ -3213,7 +3213,7 @@ function ScatteredTeamSection() {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "jsx-29ae1a6c26e0367f" + " " + "bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent",
+                                    className: "jsx-29ae1a6c26e0367f" + " " + "bg-gradient-to-r from-gray-400 to-gray-400 bg-clip-text text-transparent",
                                     children: "Dream Team"
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/scattered-team-section.tsx",
@@ -3391,7 +3391,7 @@ function ScatteredTeamSection() {
                                                             animationDuration: "2s",
                                                             animationIterationCount: "infinite"
                                                         },
-                                                        className: "jsx-29ae1a6c26e0367f" + " " + "absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-violet-500 to-purple-500 rounded-full flex items-center justify-center",
+                                                        className: "jsx-29ae1a6c26e0367f" + " " + "absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-gray-500 to-gray-500 rounded-full flex items-center justify-center",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
                                                             className: "w-3 h-3 text-white fill-current"
                                                         }, void 0, false, {
@@ -3436,7 +3436,7 @@ function ScatteredTeamSection() {
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-29ae1a6c26e0367f" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("absolute inset-0 rounded-2xl transition-opacity duration-700 blur-xl -z-10", member.color === "violet" && "bg-violet-400/30", member.color === "purple" && "bg-purple-400/30", member.color === "indigo" && "bg-indigo-400/30", hoveredMember === member.id ? "opacity-100" : "opacity-0") || "")
+                                                className: "jsx-29ae1a6c26e0367f" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("absolute inset-0 rounded-2xl transition-opacity duration-700 blur-xl -z-10", member.color === "violet" && "bg-gray-400/30", member.color === "purple" && "bg-gray-400/30", member.color === "indigo" && "bg-indigo-400/30", hoveredMember === member.id ? "opacity-100" : "opacity-0") || "")
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/scattered-team-section.tsx",
                                                 lineNumber: 379,
@@ -3457,7 +3457,7 @@ function ScatteredTeamSection() {
                                                                 animationIterationCount: "infinite"
                                                             }
                                                         },
-                                                        className: "jsx-29ae1a6c26e0367f" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("absolute w-2 h-2 bg-violet-400/40 rounded-full transition-opacity duration-500", hoveredMember === member.id ? "opacity-100" : "opacity-0") || "")
+                                                        className: "jsx-29ae1a6c26e0367f" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("absolute w-2 h-2 bg-gray-400/40 rounded-full transition-opacity duration-500", hoveredMember === member.id ? "opacity-100" : "opacity-0") || "")
                                                     }, i, false, {
                                                         fileName: "[project]/src/components/scattered-team-section.tsx",
                                                         lineNumber: 392,
@@ -3485,7 +3485,7 @@ function ScatteredTeamSection() {
                                             className: "jsx-29ae1a6c26e0367f" + " " + "bg-slate-900/95 backdrop-blur-xl border border-slate-700/50 rounded-xl p-6 shadow-2xl min-w-[280px] text-center animate-in fade-in zoom-in duration-300",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "jsx-29ae1a6c26e0367f" + " " + "w-16 h-16 mx-auto mb-4 rounded-full overflow-hidden border-2 border-violet-400/30",
+                                                    className: "jsx-29ae1a6c26e0367f" + " " + "w-16 h-16 mx-auto mb-4 rounded-full overflow-hidden border-2 border-gray-400/30",
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                                         src: member.image || "/placeholder.svg",
                                                         alt: member.name,
@@ -3525,7 +3525,7 @@ function ScatteredTeamSection() {
                                                         "Leadership",
                                                         "Innovation"
                                                     ].map((skill, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "jsx-29ae1a6c26e0367f" + " " + "px-2 py-1 bg-violet-600/20 text-violet-400 text-xs rounded-full border border-violet-400/30",
+                                                            className: "jsx-29ae1a6c26e0367f" + " " + "px-2 py-1 bg-gray-600/20 text-gray-400 text-xs rounded-full border border-gray-400/30",
                                                             children: skill
                                                         }, i, false, {
                                                             fileName: "[project]/src/components/scattered-team-section.tsx",
@@ -3541,7 +3541,7 @@ function ScatteredTeamSection() {
                                                     className: "jsx-29ae1a6c26e0367f" + " " + "flex justify-center gap-3",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-29ae1a6c26e0367f" + " " + "w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-violet-600 transition-colors duration-300 cursor-pointer",
+                                                            className: "jsx-29ae1a6c26e0367f" + " " + "w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors duration-300 cursor-pointer",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
                                                                 className: "w-4 h-4 text-slate-400 hover:text-white"
                                                             }, void 0, false, {
@@ -3555,7 +3555,7 @@ function ScatteredTeamSection() {
                                                             columnNumber: 23
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "jsx-29ae1a6c26e0367f" + " " + "w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-violet-600 transition-colors duration-300 cursor-pointer",
+                                                            className: "jsx-29ae1a6c26e0367f" + " " + "w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors duration-300 cursor-pointer",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"], {
                                                                 className: "w-4 h-4 text-slate-400 hover:text-white"
                                                             }, void 0, false, {
@@ -3632,7 +3632,7 @@ function ScatteredTeamSection() {
                             className: "jsx-29ae1a6c26e0367f" + " " + "group relative p-8 rounded-2xl bg-slate-800/30 backdrop-blur-sm border border-slate-700/30 hover:border-slate-600/50 transition-all duration-500 hover:bg-slate-800/50 text-center",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-29ae1a6c26e0367f" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110", stat.color === "violet" && "bg-violet-600/20 text-violet-400 group-hover:bg-violet-600/30", stat.color === "purple" && "bg-purple-600/20 text-purple-400 group-hover:bg-purple-600/30", stat.color === "indigo" && "bg-indigo-600/20 text-indigo-400 group-hover:bg-indigo-600/30") || ""),
+                                    className: "jsx-29ae1a6c26e0367f" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110", stat.color === "violet" && "bg-gray-600/20 text-gray-400 group-hover:bg-gray-600/30", stat.color === "purple" && "bg-gray-600/20 text-gray-400 group-hover:bg-gray-600/30", stat.color === "indigo" && "bg-indigo-600/20 text-indigo-400 group-hover:bg-indigo-600/30") || ""),
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(stat.icon, {
                                         className: "w-8 h-8"
                                     }, void 0, false, {
@@ -3646,7 +3646,7 @@ function ScatteredTeamSection() {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-29ae1a6c26e0367f" + " " + "text-4xl font-light text-white mb-2 group-hover:text-violet-400 transition-colors duration-300",
+                                    className: "jsx-29ae1a6c26e0367f" + " " + "text-4xl font-light text-white mb-2 group-hover:text-gray-400 transition-colors duration-300",
                                     children: stat.number
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/scattered-team-section.tsx",
@@ -3662,7 +3662,7 @@ function ScatteredTeamSection() {
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "jsx-29ae1a6c26e0367f" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl -z-10", stat.color === "violet" && "bg-violet-400/10", stat.color === "purple" && "bg-purple-400/10", stat.color === "indigo" && "bg-indigo-400/10") || "")
+                                    className: "jsx-29ae1a6c26e0367f" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl -z-10", stat.color === "violet" && "bg-gray-400/10", stat.color === "purple" && "bg-gray-400/10", stat.color === "indigo" && "bg-indigo-400/10") || "")
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/scattered-team-section.tsx",
                                     lineNumber: 501,
@@ -3692,7 +3692,7 @@ function ScatteredTeamSection() {
                     },
                     className: "jsx-29ae1a6c26e0367f" + " " + ((0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("transition-all duration-1000 ease-out", isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10") || ""),
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                        className: "jsx-29ae1a6c26e0367f" + " " + "group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white rounded-full font-medium transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-violet-500/25",
+                        className: "jsx-29ae1a6c26e0367f" + " " + "group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-gray-600 to-gray-600 hover:from-gray-700 hover:to-gray-700 text-white rounded-full font-medium transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-gray-500/25",
                         children: [
                             "Join Our Team",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {

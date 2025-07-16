@@ -132,13 +132,13 @@ export function ScatteredTeamSection() {
   const getColorClasses = (color: string) => {
     switch (color) {
       case "violet":
-        return "border-violet-400/30 shadow-violet-400/20"
+        return "border-gray-400/30 shadow-gray-400/20"
       case "purple":
-        return "border-purple-400/30 shadow-purple-400/20"
+        return "border-gray-400/30 shadow-gray-400/20"
       case "indigo":
         return "border-indigo-400/30 shadow-indigo-400/20"
       default:
-        return "border-violet-400/30 shadow-violet-400/20"
+        return "border-gray-400/30 shadow-gray-400/20"
     }
   }
 
@@ -182,7 +182,7 @@ export function ScatteredTeamSection() {
         {particles.map((particle) => (
           <div
             key={particle.id}
-            className="absolute rounded-full bg-violet-400/20"
+            className="absolute rounded-full bg-gray-400/20"
             style={{
               width: `${particle.size}px`,
               height: `${particle.size}px`,
@@ -212,14 +212,14 @@ export function ScatteredTeamSection() {
           )}
         >
           <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-slate-800/50 border border-slate-700/50 mb-8 backdrop-blur-xl">
-            <Users className="w-4 h-4 text-violet-400" />
+            <Users className="w-4 h-4 text-gray-400" />
             <span className="text-sm font-medium text-slate-300 tracking-wide">OUR CREATIVE MINDS</span>
           </div>
 
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-light mb-6 tracking-tight">
             <span className="text-white">Meet Our</span>
             <br />
-            <span className="bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-gray-400 to-gray-400 bg-clip-text text-transparent">
               Dream Team
             </span>
           </h2>
@@ -352,7 +352,7 @@ export function ScatteredTeamSection() {
                   {/* Featured Badge */}
                   {member.featured && (
                     <div
-                      className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-violet-500 to-purple-500 rounded-full flex items-center justify-center"
+                      className="absolute -top-2 -right-2 w-6 h-6 bg-gradient-to-r from-gray-500 to-gray-500 rounded-full flex items-center justify-center"
                       style={{
                         animationName: "pulse",
                         animationDuration: "2s",
@@ -379,8 +379,8 @@ export function ScatteredTeamSection() {
                 <div
                   className={cn(
                     "absolute inset-0 rounded-2xl transition-opacity duration-700 blur-xl -z-10",
-                    member.color === "violet" && "bg-violet-400/30",
-                    member.color === "purple" && "bg-purple-400/30",
+                    member.color === "violet" && "bg-gray-400/30",
+                    member.color === "purple" && "bg-gray-400/30",
                     member.color === "indigo" && "bg-indigo-400/30",
                     hoveredMember === member.id ? "opacity-100" : "opacity-0",
                   )}
@@ -392,7 +392,7 @@ export function ScatteredTeamSection() {
                     <div
                       key={i}
                       className={cn(
-                        "absolute w-2 h-2 bg-violet-400/40 rounded-full transition-opacity duration-500",
+                        "absolute w-2 h-2 bg-gray-400/40 rounded-full transition-opacity duration-500",
                         hoveredMember === member.id ? "opacity-100" : "opacity-0",
                       )}
                       style={{
@@ -421,7 +421,7 @@ export function ScatteredTeamSection() {
                   }}
                 >
                   <div className="bg-slate-900/95 backdrop-blur-xl border border-slate-700/50 rounded-xl p-6 shadow-2xl min-w-[280px] text-center animate-in fade-in zoom-in duration-300">
-                    <div className="w-16 h-16 mx-auto mb-4 rounded-full overflow-hidden border-2 border-violet-400/30">
+                    <div className="w-16 h-16 mx-auto mb-4 rounded-full overflow-hidden border-2 border-gray-400/30">
                       <Image
                         src={member.image || "/placeholder.svg"}
                         alt={member.name}
@@ -439,7 +439,7 @@ export function ScatteredTeamSection() {
                       {["Creative", "Leadership", "Innovation"].map((skill, i) => (
                         <span
                           key={i}
-                          className="px-2 py-1 bg-violet-600/20 text-violet-400 text-xs rounded-full border border-violet-400/30"
+                          className="px-2 py-1 bg-gray-600/20 text-gray-400 text-xs rounded-full border border-gray-400/30"
                         >
                           {skill}
                         </span>
@@ -448,10 +448,10 @@ export function ScatteredTeamSection() {
 
                     {/* Social Icons */}
                     <div className="flex justify-center gap-3">
-                      <div className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-violet-600 transition-colors duration-300 cursor-pointer">
+                      <div className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors duration-300 cursor-pointer">
                         <Heart className="w-4 h-4 text-slate-400 hover:text-white" />
                       </div>
-                      <div className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-violet-600 transition-colors duration-300 cursor-pointer">
+                      <div className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-gray-600 transition-colors duration-300 cursor-pointer">
                         <Zap className="w-4 h-4 text-slate-400 hover:text-white" />
                       </div>
                     </div>
@@ -484,15 +484,15 @@ export function ScatteredTeamSection() {
               <div
                 className={cn(
                   "w-16 h-16 mx-auto mb-6 rounded-full flex items-center justify-center transition-all duration-500 group-hover:scale-110",
-                  stat.color === "violet" && "bg-violet-600/20 text-violet-400 group-hover:bg-violet-600/30",
-                  stat.color === "purple" && "bg-purple-600/20 text-purple-400 group-hover:bg-purple-600/30",
+                  stat.color === "violet" && "bg-gray-600/20 text-gray-400 group-hover:bg-gray-600/30",
+                  stat.color === "purple" && "bg-gray-600/20 text-gray-400 group-hover:bg-gray-600/30",
                   stat.color === "indigo" && "bg-indigo-600/20 text-indigo-400 group-hover:bg-indigo-600/30",
                 )}
               >
                 <stat.icon className="w-8 h-8" />
               </div>
 
-              <div className="text-4xl font-light text-white mb-2 group-hover:text-violet-400 transition-colors duration-300">
+              <div className="text-4xl font-light text-white mb-2 group-hover:text-gray-400 transition-colors duration-300">
                 {stat.number}
               </div>
               <div className="text-slate-400 uppercase tracking-wider text-sm">{stat.label}</div>
@@ -501,8 +501,8 @@ export function ScatteredTeamSection() {
               <div
                 className={cn(
                   "absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl -z-10",
-                  stat.color === "violet" && "bg-violet-400/10",
-                  stat.color === "purple" && "bg-purple-400/10",
+                  stat.color === "violet" && "bg-gray-400/10",
+                  stat.color === "purple" && "bg-gray-400/10",
                   stat.color === "indigo" && "bg-indigo-400/10",
                 )}
               />
@@ -520,7 +520,7 @@ export function ScatteredTeamSection() {
           )}
           style={{ transitionDelay: "1200ms" }}
         >
-          <button className="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-violet-600 to-purple-600 hover:from-violet-700 hover:to-purple-700 text-white rounded-full font-medium transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-violet-500/25">
+          <button className="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-gray-600 to-gray-600 hover:from-gray-700 hover:to-gray-700 text-white rounded-full font-medium transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-gray-500/25">
             Join Our Team
             <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
           </button>

@@ -1588,7 +1588,7 @@ function GallerySection() {
                     Array.from({
                         length: 6
                     }).map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "absolute rounded-full bg-gradient-to-br from-violet-500/5 to-purple-500/5 blur-3xl animate-pulse",
+                            className: "absolute rounded-full bg-gradient-to-br from-gray-500/5 to-gray-500/5 blur-3xl animate-pulse",
                             style: {
                                 width: `${Math.random() * 300 + 200}px`,
                                 height: `${Math.random() * 300 + 200}px`,
@@ -1618,7 +1618,7 @@ function GallerySection() {
                                 className: "inline-flex items-center gap-3 px-4 md:px-6 py-2 md:py-3 rounded-full bg-slate-800/50 border border-slate-700/50 mb-6 md:mb-8 backdrop-blur-xl",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
-                                        className: "w-3 h-3 md:w-4 md:h-4 text-violet-400"
+                                        className: "w-3 h-3 md:w-4 md:h-4 text-gray-400"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/gallery-section.tsx",
                                         lineNumber: 157,
@@ -1655,7 +1655,7 @@ function GallerySection() {
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent",
+                                        className: "bg-gradient-to-r from-gray-400 to-gray-400 bg-clip-text text-transparent",
                                         children: "Showcase"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/gallery-section.tsx",
@@ -1686,7 +1686,7 @@ function GallerySection() {
                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("flex flex-wrap justify-center gap-2 md:gap-4 mb-8 md:mb-12 px-4 transition-all duration-1000 ease-out delay-200", isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"),
                         children: categories.map((category)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                 onClick: ()=>setActiveCategory(category),
-                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("px-3 md:px-6 py-2 md:py-3 rounded-full text-xs md:text-sm font-medium transition-all duration-300 border backdrop-blur-sm whitespace-nowrap", activeCategory === category ? "bg-violet-600 text-white border-violet-500 shadow-lg shadow-violet-500/25" : "bg-slate-800/50 text-slate-400 border-slate-700/50 hover:bg-slate-800/80 hover:text-violet-400 hover:border-violet-500/50"),
+                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("px-3 md:px-6 py-2 md:py-3 rounded-full text-xs md:text-sm font-medium transition-all duration-300 border backdrop-blur-sm whitespace-nowrap", activeCategory === category ? "bg-gray-600 text-white border-gray-500 shadow-lg shadow-gray-500/25" : "bg-slate-800/50 text-slate-400 border-slate-700/50 hover:bg-slate-800/80 hover:text-gray-400 hover:border-gray-500/50"),
                                 children: category
                             }, category, false, {
                                 fileName: "[project]/src/components/gallery-section.tsx",
@@ -1701,7 +1701,7 @@ function GallerySection() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6 transition-all duration-1000 ease-out delay-400", isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"),
                         children: filteredItems.map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "group relative aspect-[4/3] sm:aspect-[3/2] lg:aspect-[4/3] rounded-xl md:rounded-2xl overflow-hidden bg-slate-800/30 border border-slate-700/30 hover:border-violet-500/50 transition-all duration-500 cursor-pointer",
+                                className: "group relative aspect-[4/3] sm:aspect-[3/2] lg:aspect-[4/3] rounded-xl md:rounded-2xl overflow-hidden bg-slate-800/30 border border-slate-700/30 hover:border-gray-500/50 transition-all duration-500 cursor-pointer",
                                 onClick: ()=>openLightbox(index),
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1727,7 +1727,7 @@ function GallerySection() {
                                     item.type === "video" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-0 flex items-center justify-center",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-16 h-16 bg-violet-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-violet-400/50 group-hover:scale-110 transition-transform duration-300",
+                                            className: "w-16 h-16 bg-gray-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-gray-400/50 group-hover:scale-110 transition-transform duration-300",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$play$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Play$3e$__["Play"], {
                                                 className: "w-6 h-6 text-white ml-1"
                                             }, void 0, false, {
@@ -1751,7 +1751,7 @@ function GallerySection() {
                                             className: "opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    className: "inline-block px-2 md:px-3 py-1 bg-violet-600/80 text-white text-xs font-medium rounded-full mb-1 md:mb-2 backdrop-blur-sm",
+                                                    className: "inline-block px-2 md:px-3 py-1 bg-gray-600/80 text-white text-xs font-medium rounded-full mb-1 md:mb-2 backdrop-blur-sm",
                                                     children: item.category
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/gallery-section.tsx",
@@ -1829,7 +1829,7 @@ function GallerySection() {
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
                             size: "lg",
                             variant: "outline",
-                            className: "group px-6 md:px-8 py-4 md:py-6 text-base md:text-lg font-medium rounded-xl bg-transparent border-slate-600 text-slate-300 hover:bg-slate-800 hover:border-violet-500 transition-all duration-300 w-full sm:w-auto",
+                            className: "group px-6 md:px-8 py-4 md:py-6 text-base md:text-lg font-medium rounded-xl bg-transparent border-slate-600 text-slate-300 hover:bg-slate-800 hover:border-gray-500 transition-all duration-300 w-full sm:w-auto",
                             children: [
                                 "Load More Content",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
@@ -1925,7 +1925,7 @@ function GallerySection() {
                                 filteredItems[currentSlide]?.type === "video" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "absolute inset-0 flex items-center justify-center",
                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: "w-16 h-16 md:w-20 md:h-20 bg-violet-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-violet-400/50 hover:scale-110 transition-transform duration-300 cursor-pointer",
+                                        className: "w-16 h-16 md:w-20 md:h-20 bg-gray-600/90 rounded-full flex items-center justify-center backdrop-blur-sm border border-gray-400/50 hover:scale-110 transition-transform duration-300 cursor-pointer",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$play$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Play$3e$__["Play"], {
                                             className: "w-6 h-6 md:w-8 md:h-8 text-white ml-1"
                                         }, void 0, false, {
@@ -1956,7 +1956,7 @@ function GallerySection() {
                                     className: "flex items-center gap-2 md:gap-4 mb-2",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "px-2 md:px-3 py-1 bg-violet-600/80 text-white text-xs md:text-sm font-medium rounded-full backdrop-blur-sm",
+                                            className: "px-2 md:px-3 py-1 bg-gray-600/80 text-white text-xs md:text-sm font-medium rounded-full backdrop-blur-sm",
                                             children: filteredItems[currentSlide]?.category
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/gallery-section.tsx",
@@ -2254,7 +2254,7 @@ function GameHero() {
                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("inline-flex items-center gap-3 px-6 py-3 rounded-full bg-slate-800/50 border border-slate-700/50 mb-12 transition-all duration-1000 ease-out backdrop-blur-xl", isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"),
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "w-2 h-2 bg-violet-400 rounded-full"
+                                className: "w-2 h-2 bg-gray-400 rounded-full"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/game-hero.tsx",
                                 lineNumber: 54,
@@ -2347,14 +2347,14 @@ function GameHero() {
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "absolute bottom-4 left-4 right-4",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "bg-black/80 backdrop-blur-sm rounded-lg p-4 border border-violet-500/30",
+                                                            className: "bg-black/80 backdrop-blur-sm rounded-lg p-4 border border-gray-500/30",
                                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                 className: "flex justify-between items-center",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "text-violet-400 text-lg font-medium mb-1",
+                                                                                className: "text-gray-400 text-lg font-medium mb-1",
                                                                                 children: "QUANTUM REALMS"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/src/components/game-hero.tsx",
@@ -2376,7 +2376,7 @@ function GameHero() {
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "flex items-center gap-2 text-violet-400 text-sm",
+                                                                        className: "flex items-center gap-2 text-gray-400 text-sm",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"], {
                                                                                 className: "w-4 h-4"
@@ -2435,7 +2435,7 @@ function GameHero() {
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "w-[500px] h-4 bg-gradient-to-r from-slate-800 via-slate-700 to-slate-800 rounded-lg mx-auto mt-1 relative",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute inset-0 bg-gradient-to-r from-violet-500/30 via-purple-500/30 to-indigo-500/30 rounded-lg opacity-60"
+                                                className: "absolute inset-0 bg-gradient-to-r from-gray-500/30 via-gray-500/30 to-indigo-500/30 rounded-lg opacity-60"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/game-hero.tsx",
                                                 lineNumber: 122,
@@ -2447,7 +2447,7 @@ function GameHero() {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "absolute inset-0 bg-gradient-to-r from-violet-500/15 via-purple-500/15 to-indigo-500/15 rounded-2xl blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 -z-10"
+                                            className: "absolute inset-0 bg-gradient-to-r from-gray-500/15 via-gray-500/15 to-indigo-500/15 rounded-2xl blur-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-700 -z-10"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/game-hero.tsx",
                                             lineNumber: 125,
@@ -2467,7 +2467,7 @@ function GameHero() {
                                             className: "flex items-center gap-2",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$monitor$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Monitor$3e$__["Monitor"], {
-                                                    className: "w-4 h-4 text-violet-400"
+                                                    className: "w-4 h-4 text-gray-400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/game-hero.tsx",
                                                     lineNumber: 131,

@@ -235,7 +235,7 @@ function InteractiveFooter() {
                         columnNumber: 9
                     }, this),
                     particles.map((particle)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("absolute rounded-full bg-violet-400/20 transition-all duration-1000 ease-out", isHovered ? "scale-150 opacity-60" : "scale-100 opacity-30"),
+                            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("absolute rounded-full bg-gray-900/20 transition-all duration-1000 ease-out", isHovered ? "scale-150 opacity-60" : "scale-100 opacity-30"),
                             style: {
                                 width: `${particle.size}px`,
                                 height: `${particle.size}px`,
@@ -251,7 +251,7 @@ function InteractiveFooter() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 opacity-5",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "absolute inset-0 bg-[linear-gradient(rgba(139,92,246,0.3)_1px,transparent_1px),linear-gradient(90deg,rgba(139,92,246,0.3)_1px,transparent_1px)] bg-[size:50px_50px]"
+                            className: "absolute inset-0 bg-[linear-gradient(rgba(3, 2, 6, 0.3)_1px,transparent_1px),linear-gradient(90deg,rgba(0, 0, 0, 0.3)_1px,transparent_1px)] bg-[size:50px_50px]"
                         }, void 0, false, {
                             fileName: "[project]/src/components/interactive-footer.tsx",
                             lineNumber: 82,
@@ -350,7 +350,7 @@ function InteractiveFooter() {
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                className: "text-2xl font-bold bg-gradient-to-r from-violet-400 to-purple-400 bg-clip-text text-transparent mb-4",
+                                                className: "text-2xl font-bold bg-gradient-to-r from-gray-900 to-gray-950 bg-clip-text text-transparent mb-4",
                                                 children: "GameStudio"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/interactive-footer.tsx",
@@ -402,7 +402,7 @@ function InteractiveFooter() {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "absolute inset-0 bg-gradient-to-r from-violet-500/10 to-purple-500/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                                                        className: "absolute inset-0 bg-gradient-to-r from-gray-900/10 to-gray-950/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
                                                         lineNumber: 131,
@@ -672,7 +672,7 @@ function InteractiveFooter() {
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "absolute inset-0 bg-gradient-to-r from-violet-500/5 to-purple-500/5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
+                                                        className: "absolute inset-0 bg-gradient-to-r from-gray-900/5 to-gray-950/5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
                                                         lineNumber: 210,
@@ -1020,6 +1020,7 @@ __turbopack_context__.s({
     "FloatingHeader": (()=>FloatingHeader)
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/menu.js [app-client] (ecmascript) <export default as Menu>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript) <export default as X>");
@@ -1034,6 +1035,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$magicui
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -1090,18 +1092,21 @@ function FloatingHeader() {
                         className: "flex items-center justify-between",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("font-bold transition-all duration-500 ease-in-out", isScrolled ? "text-lg" : "text-xl"),
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent",
-                                    children: "Logo"
+                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("transition-all duration-500 ease-in-out", isScrolled ? "w-[140px]" : "w-[160px]"),
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    src: "/logo2.png",
+                                    alt: "Logo",
+                                    width: 160,
+                                    height: 40,
+                                    priority: true
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/floating-header.tsx",
-                                    lineNumber: 50,
-                                    columnNumber: 15
+                                    lineNumber: 54,
+                                    columnNumber: 2
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/src/components/floating-header.tsx",
-                                lineNumber: 47,
+                                lineNumber: 48,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -1111,24 +1116,24 @@ function FloatingHeader() {
                                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("flex items-center transition-all duration-300 hover:text-primary relative group overflow-hidden", isScrolled ? "p-2 rounded-full" : "px-3 py-2 rounded-full"),
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute inset-0 bg-gradient-to-br from-violet-600/80 to-blue-600/80 transform scale-0 group-hover:scale-100 transition-transform duration-300 ease-out origin-center rounded-full opacity-0 group-hover:opacity-100"
+                                                className: "absolute inset-0 bg-gradient-to-br from-gray-600/80 to-blue-600/80 transform scale-0 group-hover:scale-100 transition-transform duration-300 ease-out origin-center rounded-full opacity-0 group-hover:opacity-100"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/floating-header.tsx",
-                                                lineNumber: 70,
+                                                lineNumber: 81,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "absolute inset-0 bg-gradient-to-r from-violet-500/60 to-indigo-500/60 transform translate-y-full group-hover:translate-y-0 transition-transform duration-400 ease-out rounded-full"
+                                                className: "absolute inset-0 bg-gradient-to-r from-gray-500/60 to-indigo-500/60 transform translate-y-full group-hover:translate-y-0 transition-transform duration-400 ease-out rounded-full"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/floating-header.tsx",
-                                                lineNumber: 73,
+                                                lineNumber: 84,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(item.icon, {
                                                 className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("transition-all duration-500 relative z-10", isScrolled ? "h-4 w-4" : "h-4 w-4 mr-2")
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/floating-header.tsx",
-                                                lineNumber: 75,
+                                                lineNumber: 86,
                                                 columnNumber: 19
                                             }, this),
                                             !isScrolled && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1136,18 +1141,18 @@ function FloatingHeader() {
                                                 children: item.label
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/floating-header.tsx",
-                                                lineNumber: 78,
+                                                lineNumber: 89,
                                                 columnNumber: 35
                                             }, this)
                                         ]
                                     }, item.label, true, {
                                         fileName: "[project]/src/components/floating-header.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 72,
                                         columnNumber: 17
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/src/components/floating-header.tsx",
-                                lineNumber: 54,
+                                lineNumber: 65,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1155,7 +1160,7 @@ function FloatingHeader() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$theme$2d$toggle$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ThemeToggle"], {}, void 0, false, {
                                         fileName: "[project]/src/components/floating-header.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 96,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1167,18 +1172,18 @@ function FloatingHeader() {
                                             className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("transition-all duration-500", isScrolled ? "h-4 w-4" : "h-5 w-5")
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/floating-header.tsx",
-                                            lineNumber: 95,
+                                            lineNumber: 106,
                                             columnNumber: 19
                                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
                                             className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("transition-all duration-500", isScrolled ? "h-4 w-4" : "h-5 w-5")
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/floating-header.tsx",
-                                            lineNumber: 97,
+                                            lineNumber: 108,
                                             columnNumber: 19
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/floating-header.tsx",
-                                        lineNumber: 88,
+                                        lineNumber: 99,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$magicui$2f$interactive$2d$hover$2d$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["InteractiveHoverButton"], {
@@ -1189,29 +1194,29 @@ function FloatingHeader() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/floating-header.tsx",
-                                        lineNumber: 102,
+                                        lineNumber: 113,
                                         columnNumber: 1
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/floating-header.tsx",
-                                lineNumber: 84,
+                                lineNumber: 95,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/floating-header.tsx",
-                        lineNumber: 45,
+                        lineNumber: 46,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/components/floating-header.tsx",
-                    lineNumber: 39,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/src/components/floating-header.tsx",
-                lineNumber: 33,
+                lineNumber: 34,
                 columnNumber: 7
             }, this),
             isMobileMenuOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1222,7 +1227,7 @@ function FloatingHeader() {
                         onClick: ()=>setIsMobileMenuOpen(false)
                     }, void 0, false, {
                         fileName: "[project]/src/components/floating-header.tsx",
-                        lineNumber: 116,
+                        lineNumber: 127,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1239,7 +1244,7 @@ function FloatingHeader() {
                                                 className: "h-5 w-5"
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/floating-header.tsx",
-                                                lineNumber: 126,
+                                                lineNumber: 137,
                                                 columnNumber: 19
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1247,13 +1252,13 @@ function FloatingHeader() {
                                                 children: item.label
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/floating-header.tsx",
-                                                lineNumber: 127,
+                                                lineNumber: 138,
                                                 columnNumber: 19
                                             }, this)
                                         ]
                                     }, item.label, true, {
                                         fileName: "[project]/src/components/floating-header.tsx",
-                                        lineNumber: 120,
+                                        lineNumber: 131,
                                         columnNumber: 17
                                     }, this)),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1263,31 +1268,31 @@ function FloatingHeader() {
                                             children: "Hover Me"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/floating-header.tsx",
-                                            lineNumber: 131,
+                                            lineNumber: 142,
                                             columnNumber: 1
                                         }, this),
                                         "              "
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/floating-header.tsx",
-                                    lineNumber: 130,
+                                    lineNumber: 141,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/floating-header.tsx",
-                            lineNumber: 118,
+                            lineNumber: 129,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/floating-header.tsx",
-                        lineNumber: 117,
+                        lineNumber: 128,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/floating-header.tsx",
-                lineNumber: 115,
+                lineNumber: 126,
                 columnNumber: 9
             }, this)
         ]

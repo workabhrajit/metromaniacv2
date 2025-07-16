@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image";
 
 import { useState, useEffect } from "react"
 import { Menu, X, Home, User, Settings, Mail } from "lucide-react"
@@ -45,9 +46,19 @@ export function FloatingHeader() {
           <div className="flex items-center justify-between">
             {/* Logo */}
             <div
-              className={cn("font-bold transition-all duration-500 ease-in-out", isScrolled ? "text-lg" : "text-xl")}
-            >
-              <span className="bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">Logo</span>
+  className={cn(
+      "transition-all duration-500 ease-in-out",
+      isScrolled ? "w-[140px]" : "w-[160px]"
+    )}            >
+ 
+ <Image
+  src="/logo2.png"
+  alt="Logo"
+  width={160}
+  height={40}
+  priority
+ 
+/>
             </div>
 
             {/* Desktop Navigation */}
@@ -67,10 +78,10 @@ export function FloatingHeader() {
                   )}
                 >
                   {/* Animated cube background */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-violet-600/80 to-blue-600/80 transform scale-0 group-hover:scale-100 transition-transform duration-300 ease-out origin-center rounded-full opacity-0 group-hover:opacity-100" />
+                  <div className="absolute inset-0 bg-gradient-to-br from-gray-600/80 to-blue-600/80 transform scale-0 group-hover:scale-100 transition-transform duration-300 ease-out origin-center rounded-full opacity-0 group-hover:opacity-100" />
 
                   {/* Cube sliding effect */}
-                  <div className="absolute inset-0 bg-gradient-to-r from-violet-500/60 to-indigo-500/60 transform translate-y-full group-hover:translate-y-0 transition-transform duration-400 ease-out rounded-full" />
+                  <div className="absolute inset-0 bg-gradient-to-r from-gray-500/60 to-indigo-500/60 transform translate-y-full group-hover:translate-y-0 transition-transform duration-400 ease-out rounded-full" />
 
                   <item.icon
                     className={cn("transition-all duration-500 relative z-10", isScrolled ? "h-4 w-4" : "h-4 w-4 mr-2")}

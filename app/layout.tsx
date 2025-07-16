@@ -9,8 +9,8 @@ import { FloatingHeader } from "@/components/floating-header"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Next.js Community Starter",
-  description: "A modern Next.js starter with theme support",
+  title: "Metromaniac Studios",
+  description: "Ekhane amra kisu cool animation, game, and web design er kotha bolbo.",
 }
 
 export default function RootLayout({
