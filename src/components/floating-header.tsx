@@ -29,7 +29,16 @@ export function FloatingHeader() {
     { icon: Settings, label: "Services", href: "#" },
     { icon: Mail, label: "Contact", href: "#" },
   ]
+   const [mounted, setMounted] = useState(false)
 
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    // Prevent rendering until theme is loaded
+    return null
+  }
   return (
     <>
       <header
@@ -40,7 +49,7 @@ export function FloatingHeader() {
       >
         <div
           className={cn(
-            "backdrop-blur-md bg-background/80 border shadow-lg transition-all duration-500 ease-in-out rounded-full",
+            "backdrop-blur-md bg-background/80 border shadow-lg transition-all duration-500 ease-in-out rounded-full shadow-[0_0_10px_rgba(255,255,255,0.2)]",
             isScrolled ? "rounded-full px-4 py-2 mx-4" : "rounded-full md:rounded-full px-6 py-4 mx-4 md:mx-6 mt-4",
           )}
         >

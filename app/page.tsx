@@ -1,4 +1,5 @@
 import { AnimatedBeamMultipleOutputDemo } from "@/components/all-in-one";
+import BentoServicesGrid from "@/components/bento-services-grid";
 import { GallerySection } from "@/components/gallery-section";
 import { GameHero } from "@/components/game-hero";
  import { TextReveal } from "@/components/magicui/text-reveal";
@@ -13,6 +14,7 @@ export default function Home() {
       <GameHero />
       <ScrollBasedVelocityDemo/>
       <AnimatedBeamMultipleOutputDemo/>
+      <BentoServicesGrid/>
       <ScatteredTeamSection/>
       <GallerySection/>
       <TextReveal>Rudreadeb khankir chele. pod e bash dhukiye handle mare.</TextReveal>

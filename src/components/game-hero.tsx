@@ -62,14 +62,18 @@ export function GameHero() {
           </span>
         </div>
 
-        {/* Heading */}
+        {/* Heading */}         <span className={cn(" font-extralight sm:text-xl md:text-3xl lg:text-4xl  ",
+        isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+          )}><br/>Experience the<br/></span>
+
         <h1
           className={cn(
             "text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-light mb-6 md:mb-8 transition-all duration-1000 ease-out delay-200 tracking-tight leading-tight",
             "text-gray-900 dark:text-white",
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           )}
-        >
+        >         
+
           <span className="font-extralight">Next-Gen</span>
           <br />
           <span className="bg-gradient-to-r from-gray-600 to-gray-400 dark:from-gray-100 dark:to-gray-300 bg-clip-text text-transparent font-normal">
@@ -95,10 +99,9 @@ export function GameHero() {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           )}
         >
-          <div className="group relative w-full max-w-2xl">
+          <div className="group relative w-full max-w-5xl ">
             <div className="relative transform hover:scale-[1.02] transition-all duration-700 ease-out">
-              <div className="relative mx-auto w-full max-w-[600px] aspect-[3/2] bg-gray-900 dark:bg-black rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-700 p-2 md:p-4">
-                <div className="w-full h-full bg-black rounded-xl overflow-hidden relative">
+<div className="relative mx-auto w-full max-w-[90%] md:max-w-[1200px] aspect-[5/3] bg-gray-900 dark:bg-black rounded-2xl shadow-2xl border border-gray-200 dark:border-gray-700 p-2 md:p-4">                <div className="w-full h-full bg-black rounded-xl overflow-hidden relative">
                   <video
                     src="/vdo.mp4"
                     autoPlay

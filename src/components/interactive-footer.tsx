@@ -228,9 +228,9 @@ export function InteractiveFooter() {
         <div className="pt-8 border-t border-slate-700/50">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-2 text-slate-400">
-              <span>© 2024 GameStudio. Made with</span>
+              <span>© 2026 Metromaniac Studios. Made with</span>
               <Heart className="w-4 h-4 text-red-400 fill-current" />
-              <span>for gamers worldwide.</span>
+              <span>by <a href="https://globemotions.com" className="">Globemotions</a></span>
             </div>
 
             <div className="flex space-x-6 text-sm">
