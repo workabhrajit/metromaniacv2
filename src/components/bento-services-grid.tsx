@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
 import { Gamepad2, Building, Package, User, Mountain, Globe } from "lucide-react"
+import { cn } from "@/lib/utils"
 
 const services = [
   {
@@ -101,8 +102,19 @@ export default function BentoServicesGrid() {
             transition={{ duration: 0.6 }}
             className="text-center mb-8 md:mb-16"
           >
-            <h1 className="text-4xl md:text-6xl lg:text-8xl font-black mb-4 md:mb-6 text-white">SERVICES</h1>
-            <p className="text-lg md:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto font-light">
+ <h1
+          className={cn(
+            "text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-light mb-6 md:mb-8 transition-all duration-1000 ease-out delay-200 tracking-tight leading-tight",
+            "text-gray-900 dark:text-white",
+            "opacity-100 translate-y-0"
+          )}
+        >         
+
+          <span className="font-extralight">Our </span>
+          
+          <span className="bg-gradient-to-r from-gray-600 to-gray-400 dark:from-gray-100 dark:to-gray-300 bg-clip-text text-transparent font-normal">
+ Services          </span>
+        </h1>            <p className="text-lg md:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto font-light">
               Level up your projects with our development services
             </p>
           </motion.div>

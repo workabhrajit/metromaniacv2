@@ -1,26 +1,21 @@
-import { AnimatedBeamMultipleOutputDemo } from "@/components/all-in-one";
-import BentoServicesGrid from "@/components/bento-services-grid";
+ import BentoServicesGrid from "@/components/bento-services-grid";
 import { GallerySection } from "@/components/gallery-section";
 import { GameHero } from "@/components/game-hero";
  import { TextReveal } from "@/components/magicui/text-reveal";
-import { RetroGridDemo } from "@/components/retro-grid";
-import { ScatteredTeamSection } from "@/components/scattered-team-section";
-import { TestimonialsSection } from "@/components/testimonials-section";
-import { ScrollBasedVelocityDemo } from "@/components/text-scroll";
+import TeamSectionDemo from "@/components/team";
+  import Testimonials from "@/components/testi";
+ import { ScrollBasedVelocityDemo } from "@/components/text-scroll";
    
 export default function Home() {
   return (
     <div className="min-h-screen">
       <GameHero />
       <ScrollBasedVelocityDemo/>
-      <AnimatedBeamMultipleOutputDemo/>
-      <BentoServicesGrid/>
-      <ScatteredTeamSection/>
-      <GallerySection/>
+       <BentoServicesGrid/>
+       <GallerySection/>
       <TextReveal>Rudreadeb khankir chele. pod e bash dhukiye handle mare.</TextReveal>
-      <RetroGridDemo/>
-      <TestimonialsSection/>
-     
+  <TeamSectionDemo/>
+  <Testimonials/>     
       </div>
   );
 }

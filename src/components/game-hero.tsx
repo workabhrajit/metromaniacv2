@@ -49,7 +49,7 @@ export function GameHero() {
 
       <div className="relative z-10 text-center w-full max-w-7xl mx-auto">
         {/* Badge */}
-        <div
+        {/* <div
           className={cn(
             "inline-flex items-center gap-2 md:gap-3 px-4 md:px-6 py-2 md:py-3 rounded-full border backdrop-blur-xl mb-8 md:mb-12 transition-all duration-1000 ease-out",
             "bg-gray-200/60 border-gray-300 dark:bg-gray-800/50 dark:border-gray-700/50",
@@ -60,7 +60,7 @@ export function GameHero() {
           <span className="text-xs md:text-sm font-medium text-gray-700 dark:text-gray-300 tracking-wide">
             AVAILABLE NOW
           </span>
-        </div>
+        </div> */}
 
         {/* Heading */}         <span className={cn(" font-extralight sm:text-xl md:text-3xl lg:text-4xl  ",
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
