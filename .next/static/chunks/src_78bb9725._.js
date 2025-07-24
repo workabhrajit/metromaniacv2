@@ -354,11 +354,28 @@ function InteractiveFooter() {
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                // Light mode: Dark gray text | Dark mode: Violet gradient text (for visibility on black)
-                                                className: "text-2xl font-bold text-gray-900 dark:bg-gradient-to-r dark:from-violet-400 dark:to-fuchsia-400 dark:bg-clip-text dark:text-transparent mb-4",
-                                                children: "GameStudio"
-                                            }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                        src: "/logo3.png",
+                                                        alt: "GameStudio Logo Light",
+                                                        className: "block dark:hidden h-16 w-auto"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/interactive-footer.tsx",
+                                                        lineNumber: 120,
+                                                        columnNumber: 3
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                        src: "/logo2.png",
+                                                        alt: "GameStudio Logo Dark",
+                                                        className: "hidden dark:block h-16 w-auto"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/src/components/interactive-footer.tsx",
+                                                        lineNumber: 127,
+                                                        columnNumber: 3
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/src/components/interactive-footer.tsx",
                                                 lineNumber: 118,
                                                 columnNumber: 15
@@ -368,7 +385,7 @@ function InteractiveFooter() {
                                                 children: "Creating immersive gaming experiences that push the boundaries of interactive entertainment."
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                lineNumber: 124,
+                                                lineNumber: 133,
                                                 columnNumber: 15
                                             }, this)
                                         ]
@@ -404,25 +421,25 @@ function InteractiveFooter() {
                                                         className: "w-5 h-5 text-gray-600 group-hover:text-violet-600 dark:text-slate-400 dark:group-hover:text-violet-400 transition-colors duration-300"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                        lineNumber: 141,
+                                                        lineNumber: 150,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "absolute inset-0 bg-gradient-to-r from-gray-100/10 to-gray-200/10 dark:from-gray-900/10 dark:to-gray-950/10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                        lineNumber: 142,
+                                                        lineNumber: 151,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                lineNumber: 135,
+                                                lineNumber: 144,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                        lineNumber: 129,
+                                        lineNumber: 138,
                                         columnNumber: 13
                                     }, this)
                                 ]
@@ -439,7 +456,7 @@ function InteractiveFooter() {
                                         children: "Quick Links"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                        lineNumber: 150,
+                                        lineNumber: 159,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
@@ -459,7 +476,7 @@ function InteractiveFooter() {
                                                         className: "w-4 h-4 mr-2 opacity-0 group-hover:opacity-100 transform -translate-x-2 group-hover:translate-x-0 transition-all duration-300"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                        lineNumber: 158,
+                                                        lineNumber: 167,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -467,24 +484,24 @@ function InteractiveFooter() {
                                                         children: link
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                        lineNumber: 159,
+                                                        lineNumber: 168,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                lineNumber: 153,
+                                                lineNumber: 162,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                        lineNumber: 151,
+                                        lineNumber: 160,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                lineNumber: 149,
+                                lineNumber: 158,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -495,7 +512,7 @@ function InteractiveFooter() {
                                         children: "Support"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                        lineNumber: 167,
+                                        lineNumber: 176,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -508,7 +525,7 @@ function InteractiveFooter() {
                                                         className: "w-5 h-5 text-violet-600 dark:text-violet-400 mt-1 flex-shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                        lineNumber: 170,
+                                                        lineNumber: 179,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -518,7 +535,7 @@ function InteractiveFooter() {
                                                                 children: "Email"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                                lineNumber: 172,
+                                                                lineNumber: 181,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -527,19 +544,19 @@ function InteractiveFooter() {
                                                                 children: "support@gamestudio.com"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                                lineNumber: 173,
+                                                                lineNumber: 182,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                        lineNumber: 171,
+                                                        lineNumber: 180,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                lineNumber: 169,
+                                                lineNumber: 178,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -549,7 +566,7 @@ function InteractiveFooter() {
                                                         className: "w-5 h-5 text-violet-600 dark:text-violet-400 mt-1 flex-shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                        lineNumber: 183,
+                                                        lineNumber: 192,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -559,7 +576,7 @@ function InteractiveFooter() {
                                                                 children: "Phone"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                                lineNumber: 185,
+                                                                lineNumber: 194,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -568,19 +585,19 @@ function InteractiveFooter() {
                                                                 children: "+1 (234) 567-8900"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                                lineNumber: 186,
+                                                                lineNumber: 195,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                        lineNumber: 184,
+                                                        lineNumber: 193,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                lineNumber: 182,
+                                                lineNumber: 191,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -590,7 +607,7 @@ function InteractiveFooter() {
                                                         className: "w-5 h-5 text-violet-600 dark:text-violet-400 mt-1 flex-shrink-0"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                        lineNumber: 196,
+                                                        lineNumber: 205,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -600,7 +617,7 @@ function InteractiveFooter() {
                                                                 children: "Address"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                                lineNumber: 198,
+                                                                lineNumber: 207,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -609,38 +626,38 @@ function InteractiveFooter() {
                                                                     "123 Gaming Street",
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                                        lineNumber: 201,
+                                                                        lineNumber: 210,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     "Tech City, TC 12345"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                                lineNumber: 199,
+                                                                lineNumber: 208,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                        lineNumber: 197,
+                                                        lineNumber: 206,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                lineNumber: 195,
+                                                lineNumber: 204,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                        lineNumber: 168,
+                                        lineNumber: 177,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                lineNumber: 166,
+                                lineNumber: 175,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -651,7 +668,7 @@ function InteractiveFooter() {
                                         children: "Stay Updated"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                        lineNumber: 211,
+                                        lineNumber: 220,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -659,7 +676,7 @@ function InteractiveFooter() {
                                         children: "Get the latest news about our games and exclusive content."
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                        lineNumber: 212,
+                                        lineNumber: 221,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -674,20 +691,20 @@ function InteractiveFooter() {
                                                         className: "bg-gray-100/50 border-gray-300/50 text-gray-900 placeholder:text-gray-400 dark:bg-slate-800/50 dark:border-slate-700/50 dark:text-white dark:placeholder:text-slate-500 focus:border-violet-700/50 dark:focus:border-violet-500/50 focus:ring-violet-700/20 dark:focus:ring-violet-500/20 transition-all duration-300"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                        lineNumber: 216,
+                                                        lineNumber: 225,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                         className: "absolute inset-0 bg-gradient-to-r from-gray-100/5 to-gray-200/5 dark:from-gray-900/5 dark:to-gray-950/5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                        lineNumber: 221,
+                                                        lineNumber: 230,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                lineNumber: 215,
+                                                lineNumber: 224,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -698,19 +715,19 @@ function InteractiveFooter() {
                                                         className: "w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform duration-300"
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                                        lineNumber: 226,
+                                                        lineNumber: 235,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                                lineNumber: 224,
+                                                lineNumber: 233,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                        lineNumber: 214,
+                                        lineNumber: 223,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -720,18 +737,18 @@ function InteractiveFooter() {
                                             children: "By subscribing, you agree to our Privacy Policy and Terms of Service."
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/interactive-footer.tsx",
-                                            lineNumber: 231,
+                                            lineNumber: 240,
                                             columnNumber: 15
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/interactive-footer.tsx",
-                                        lineNumber: 230,
+                                        lineNumber: 239,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/interactive-footer.tsx",
-                                lineNumber: 210,
+                                lineNumber: 219,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -752,14 +769,14 @@ function InteractiveFooter() {
                                             children: "© 2026 Metromaniac Studios. Made with"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/interactive-footer.tsx",
-                                            lineNumber: 242,
+                                            lineNumber: 251,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$heart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Heart$3e$__["Heart"], {
                                             className: "w-4 h-4 text-red-400 fill-current"
                                         }, void 0, false, {
                                             fileName: "[project]/src/components/interactive-footer.tsx",
-                                            lineNumber: 243,
+                                            lineNumber: 252,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -771,19 +788,19 @@ function InteractiveFooter() {
                                                     children: "Globemotions"
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/interactive-footer.tsx",
-                                                    lineNumber: 244,
+                                                    lineNumber: 253,
                                                     columnNumber: 24
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/src/components/interactive-footer.tsx",
-                                            lineNumber: 244,
+                                            lineNumber: 253,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/src/components/interactive-footer.tsx",
-                                    lineNumber: 241,
+                                    lineNumber: 250,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -798,23 +815,23 @@ function InteractiveFooter() {
                                             children: link
                                         }, index, false, {
                                             fileName: "[project]/src/components/interactive-footer.tsx",
-                                            lineNumber: 249,
+                                            lineNumber: 258,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/src/components/interactive-footer.tsx",
-                                    lineNumber: 247,
+                                    lineNumber: 256,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/components/interactive-footer.tsx",
-                            lineNumber: 240,
+                            lineNumber: 249,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/src/components/interactive-footer.tsx",
-                        lineNumber: 239,
+                        lineNumber: 248,
                         columnNumber: 9
                     }, this)
                 ]

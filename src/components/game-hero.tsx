@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import { Play, Download, Star, ArrowRight,  Zap } from "lucide-react"
+import { Play, Download, Star, ArrowRight,  } from "lucide-react"
 import { cn } from "@/lib/utils"
 import { Meteors } from "./magicui/meteors"
 
@@ -111,8 +111,8 @@ export function GameHero() {
                     className="w-full h-full object-cover rounded-xl"
                   ></video>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30 rounded-xl" />
-                  <div className="absolute bottom-2 md:bottom-4 left-2 md:left-4 right-2 md:right-4">
-                    <div className="bg-black/80 backdrop-blur-sm rounded-lg p-4 border border-gray-600/30">
+                  {/* <div className="absolute bottom-2 md:bottom-4 left-2 md:left-4 right-2 md:right-4"> */}
+                    {/* <div className="bg-black/80 backdrop-blur-sm rounded-lg p-4 border border-gray-600/30">
                       <div className="flex justify-between items-center">
                         <div>
                           <div className="text-gray-300 text-lg font-medium">QUANTUM REALMS</div>
@@ -124,7 +124,7 @@ export function GameHero() {
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
 

@@ -21,7 +21,7 @@ export function GallerySection() {
     {
       id: 1,
       type: "image",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/30.webp",
       title: "Quantum Realms - Epic Battle",
       category: "Screenshots",
       description: "Intense combat sequences in our flagship title",
@@ -31,9 +31,9 @@ export function GallerySection() {
     {
       id: 2,
       type: "video",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/23.webp",
       title: "Gameplay Trailer",
-      category: "Videos",
+      category: "Concept Art",
       description: "Official gameplay reveal trailer",
       width: 800,
       height: 600,
@@ -41,7 +41,7 @@ export function GallerySection() {
     {
       id: 3,
       type: "image",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/29.webp",
       title: "Character Design",
       category: "Concept Art",
       description: "Early character concept designs",
@@ -51,7 +51,7 @@ export function GallerySection() {
     {
       id: 4,
       type: "image",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/28.webp",
       title: "Environment Art",
       category: "Screenshots",
       description: "Stunning world environments",
@@ -61,9 +61,9 @@ export function GallerySection() {
     {
       id: 5,
       type: "video",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/27.webp",
       title: "Behind the Scenes",
-      category: "Videos",
+      category: "Concept Art",
       description: "Development process documentary",
       width: 800,
       height: 600,
@@ -71,7 +71,7 @@ export function GallerySection() {
     {
       id: 6,
       type: "image",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/26.webp",
       title: "UI/UX Design",
       category: "Interface",
       description: "Game interface and menu designs",
@@ -81,7 +81,7 @@ export function GallerySection() {
     {
       id: 7,
       type: "image",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/25.webp",
       title: "Weapon Gallery",
       category: "Assets",
       description: "Detailed weapon and equipment showcase",
@@ -91,7 +91,7 @@ export function GallerySection() {
     {
       id: 8,
       type: "image",
-      src: "/placeholder.svg?height=600&width=800",
+      src: "/24.webp",
       title: "Cinematic Scenes",
       category: "Screenshots",
       description: "Epic story moments and cutscenes",

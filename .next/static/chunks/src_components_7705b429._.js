@@ -33,7 +33,7 @@ const services = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$gamepad$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Gamepad2$3e$__["Gamepad2"],
         color: "from-purple-600 via-pink-600 to-purple-800",
         size: "col-span-4 md:col-span-3 row-span-1 md:row-span-2",
-        image: "/logo2.png",
+        image: "/22.webp",
         delay: 0.1
     },
     {
@@ -43,7 +43,7 @@ const services = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$building$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Building$3e$__["Building"],
         color: "from-cyan-500 via-blue-600 to-indigo-700",
         size: "col-span-4 md:col-span-2 row-span-1 md:row-span-1",
-        image: "/placeholder.svg?height=150&width=250",
+        image: "/23.webp",
         delay: 0.2
     },
     {
@@ -53,7 +53,7 @@ const services = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$user$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__User$3e$__["User"],
         color: "from-orange-500 via-red-600 to-pink-700",
         size: "col-span-4 md:col-span-2 row-span-1 md:row-span-2",
-        image: "/placeholder.svg?height=250&width=200",
+        image: "/24.webp",
         delay: 0.3
     },
     {
@@ -63,7 +63,7 @@ const services = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$package$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Package$3e$__["Package"],
         color: "from-emerald-500 via-teal-600 to-green-700",
         size: "col-span-4 md:col-span-2 row-span-1 md:row-span-1",
-        image: "/placeholder.svg?height=150&width=250",
+        image: "/25.webp",
         delay: 0.4
     },
     {
@@ -73,7 +73,7 @@ const services = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$package$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Package$3e$__["Package"],
         color: "from-emerald-500 via-teal-600 to-green-700",
         size: "hidden md:block md:col-span-1 md:row-span-1",
-        image: "/logo2.png",
+        image: "/26.webp",
         delay: 0.4
     },
     {
@@ -83,7 +83,7 @@ const services = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mountain$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mountain$3e$__["Mountain"],
         color: "from-teal-500 via-cyan-600 to-blue-700",
         size: "col-span-4 md:col-span-2 row-span-1 md:row-span-1",
-        image: "/placeholder.svg?height=150&width=250",
+        image: "/27.webp",
         delay: 0.5
     },
     {
@@ -93,7 +93,7 @@ const services = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$globe$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Globe$3e$__["Globe"],
         color: "from-yellow-500 via-orange-600 to-red-700",
         size: "col-span-4 md:col-span-3 row-span-1 md:row-span-1",
-        image: "/placeholder.svg?height=150&width=300",
+        image: "/28.webp",
         delay: 0.6
     }
 ];
@@ -112,7 +112,7 @@ function BentoServicesGrid() {
     _s();
     const [hoveredCard, setHoveredCard] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "min-h-screen bg-black text-white",
+        className: "min-h-screen bg-white text-black dark:bg-black dark:text-white transition-colors duration-500",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "p-4 md:p-8",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -133,43 +133,42 @@ function BentoServicesGrid() {
                         className: "text-center mb-8 md:mb-16",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-light mb-6 md:mb-8 transition-all duration-1000 ease-out delay-200 tracking-tight leading-tight", "text-gray-900 dark:text-white", "opacity-100 translate-y-0"),
+                                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("text-4xl sm:text-5xl md:text-7xl lg:text-8xl font-light mb-6 md:mb-8 transition-all duration-1000 ease-out delay-200 tracking-tight leading-tight", "text-gray-900 dark:text-white"),
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "font-extralight",
                                         children: "Our "
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/bento-services-grid.tsx",
-                                        lineNumber: 113,
-                                        columnNumber: 11
+                                        lineNumber: 110,
+                                        columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "bg-gradient-to-r from-gray-600 to-gray-400 dark:from-gray-100 dark:to-gray-300 bg-clip-text text-transparent font-normal",
-                                        children: "Services          "
+                                        children: "Services"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/bento-services-grid.tsx",
-                                        lineNumber: 115,
-                                        columnNumber: 11
+                                        lineNumber: 111,
+                                        columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/src/components/bento-services-grid.tsx",
-                                lineNumber: 105,
-                                columnNumber: 2
+                                lineNumber: 104,
+                                columnNumber: 13
                             }, this),
-                            "            ",
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                className: "text-lg md:text-xl lg:text-2xl text-gray-300 max-w-3xl mx-auto font-light",
+                                className: "text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto font-light",
                                 children: "Level up your projects with our development services"
                             }, void 0, false, {
                                 fileName: "[project]/src/components/bento-services-grid.tsx",
-                                lineNumber: 117,
-                                columnNumber: 26
+                                lineNumber: 115,
+                                columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/components/bento-services-grid.tsx",
-                        lineNumber: 99,
+                        lineNumber: 98,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -195,10 +194,39 @@ function BentoServicesGrid() {
                                 className: `${service.size} relative overflow-hidden rounded-2xl md:rounded-3xl cursor-pointer group`,
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        className: `absolute inset-0 bg-gradient-to-br ${service.color}`
-                                    }, void 0, false, {
+                                        className: "absolute inset-0 z-0",
+                                        children: [
+                                            service.image?.endsWith(".mp4") ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+                                                src: service.image,
+                                                autoPlay: true,
+                                                loop: true,
+                                                muted: true,
+                                                playsInline: true,
+                                                className: "w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/bento-services-grid.tsx",
+                                                lineNumber: 141,
+                                                columnNumber: 23
+                                            }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                src: service.image || "/placeholder.svg",
+                                                alt: service.title,
+                                                className: "w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/bento-services-grid.tsx",
+                                                lineNumber: 150,
+                                                columnNumber: 23
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "absolute inset-0 bg-gradient-to-br from-black/50 to-black/20"
+                                            }, void 0, false, {
+                                                fileName: "[project]/src/components/bento-services-grid.tsx",
+                                                lineNumber: 156,
+                                                columnNumber: 21
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
                                         fileName: "[project]/src/components/bento-services-grid.tsx",
-                                        lineNumber: 141,
+                                        lineNumber: 139,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -213,12 +241,12 @@ function BentoServicesGrid() {
                                                             className: "w-5 h-5 md:w-6 lg:w-8 md:h-6 lg:h-8 text-white"
                                                         }, void 0, false, {
                                                             fileName: "[project]/src/components/bento-services-grid.tsx",
-                                                            lineNumber: 148,
+                                                            lineNumber: 163,
                                                             columnNumber: 25
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/bento-services-grid.tsx",
-                                                        lineNumber: 147,
+                                                        lineNumber: 162,
                                                         columnNumber: 23
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -229,7 +257,7 @@ function BentoServicesGrid() {
                                                                 children: service.title
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/bento-services-grid.tsx",
-                                                                lineNumber: 151,
+                                                                lineNumber: 166,
                                                                 columnNumber: 25
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -237,51 +265,19 @@ function BentoServicesGrid() {
                                                                 children: service.description
                                                             }, void 0, false, {
                                                                 fileName: "[project]/src/components/bento-services-grid.tsx",
-                                                                lineNumber: 155,
+                                                                lineNumber: 169,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/src/components/bento-services-grid.tsx",
-                                                        lineNumber: 150,
+                                                        lineNumber: 165,
                                                         columnNumber: 23
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/src/components/bento-services-grid.tsx",
-                                                lineNumber: 146,
-                                                columnNumber: 21
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "w-32 md:w-full mb-0 md:mb-4 flex-shrink-0",
-                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    className: "relative overflow-hidden rounded-lg md:rounded-xl bg-white/10 backdrop-blur-sm h-full md:h-24 lg:h-32",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                            src: service.image || "/placeholder.svg",
-                                                            alt: service.title,
-                                                            className: "w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/bento-services-grid.tsx",
-                                                            lineNumber: 164,
-                                                            columnNumber: 25
-                                                        }, this),
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/bento-services-grid.tsx",
-                                                            lineNumber: 169,
-                                                            columnNumber: 25
-                                                        }, this)
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/src/components/bento-services-grid.tsx",
-                                                    lineNumber: 163,
-                                                    columnNumber: 23
-                                                }, this)
-                                            }, void 0, false, {
-                                                fileName: "[project]/src/components/bento-services-grid.tsx",
-                                                lineNumber: 162,
+                                                lineNumber: 161,
                                                 columnNumber: 21
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -291,18 +287,18 @@ function BentoServicesGrid() {
                                                     children: service.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/src/components/bento-services-grid.tsx",
-                                                    lineNumber: 175,
+                                                    lineNumber: 176,
                                                     columnNumber: 23
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/src/components/bento-services-grid.tsx",
-                                                lineNumber: 174,
+                                                lineNumber: 175,
                                                 columnNumber: 21
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/src/components/bento-services-grid.tsx",
-                                        lineNumber: 144,
+                                        lineNumber: 160,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
@@ -320,42 +316,42 @@ function BentoServicesGrid() {
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/bento-services-grid.tsx",
-                                        lineNumber: 180,
+                                        lineNumber: 181,
                                         columnNumber: 19
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "absolute inset-0 rounded-2xl md:rounded-3xl border border-white/10 group-hover:border-white/20 transition-colors duration-300"
                                     }, void 0, false, {
                                         fileName: "[project]/src/components/bento-services-grid.tsx",
-                                        lineNumber: 188,
+                                        lineNumber: 187,
                                         columnNumber: 19
                                     }, this)
                                 ]
                             }, service.id, true, {
                                 fileName: "[project]/src/components/bento-services-grid.tsx",
-                                lineNumber: 127,
+                                lineNumber: 125,
                                 columnNumber: 17
                             }, this);
                         })
                     }, void 0, false, {
                         fileName: "[project]/src/components/bento-services-grid.tsx",
-                        lineNumber: 123,
+                        lineNumber: 121,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/components/bento-services-grid.tsx",
-                lineNumber: 97,
+                lineNumber: 96,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/src/components/bento-services-grid.tsx",
-            lineNumber: 96,
+            lineNumber: 95,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/components/bento-services-grid.tsx",
-        lineNumber: 95,
+        lineNumber: 94,
         columnNumber: 5
     }, this);
 }
@@ -410,7 +406,7 @@ function GallerySection() {
         {
             id: 1,
             type: "image",
-            src: "/placeholder.svg?height=600&width=800",
+            src: "/30.webp",
             title: "Quantum Realms - Epic Battle",
             category: "Screenshots",
             description: "Intense combat sequences in our flagship title",
@@ -420,9 +416,9 @@ function GallerySection() {
         {
             id: 2,
             type: "video",
-            src: "/placeholder.svg?height=600&width=800",
+            src: "/23.webp",
             title: "Gameplay Trailer",
-            category: "Videos",
+            category: "Concept Art",
             description: "Official gameplay reveal trailer",
             width: 800,
             height: 600
@@ -430,7 +426,7 @@ function GallerySection() {
         {
             id: 3,
             type: "image",
-            src: "/placeholder.svg?height=600&width=800",
+            src: "/29.webp",
             title: "Character Design",
             category: "Concept Art",
             description: "Early character concept designs",
@@ -440,7 +436,7 @@ function GallerySection() {
         {
             id: 4,
             type: "image",
-            src: "/placeholder.svg?height=600&width=800",
+            src: "/28.webp",
             title: "Environment Art",
             category: "Screenshots",
             description: "Stunning world environments",
@@ -450,9 +446,9 @@ function GallerySection() {
         {
             id: 5,
             type: "video",
-            src: "/placeholder.svg?height=600&width=800",
+            src: "/27.webp",
             title: "Behind the Scenes",
-            category: "Videos",
+            category: "Concept Art",
             description: "Development process documentary",
             width: 800,
             height: 600
@@ -460,7 +456,7 @@ function GallerySection() {
         {
             id: 6,
             type: "image",
-            src: "/placeholder.svg?height=600&width=800",
+            src: "/26.webp",
             title: "UI/UX Design",
             category: "Interface",
             description: "Game interface and menu designs",
@@ -470,7 +466,7 @@ function GallerySection() {
         {
             id: 7,
             type: "image",
-            src: "/placeholder.svg?height=600&width=800",
+            src: "/25.webp",
             title: "Weapon Gallery",
             category: "Assets",
             description: "Detailed weapon and equipment showcase",
@@ -480,7 +476,7 @@ function GallerySection() {
         {
             id: 8,
             type: "image",
-            src: "/placeholder.svg?height=600&width=800",
+            src: "/24.webp",
             title: "Cinematic Scenes",
             category: "Screenshots",
             description: "Epic story moments and cutscenes",
@@ -1091,7 +1087,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$download$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Download$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/download.js [app-client] (ecmascript) <export default as Download>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/star.js [app-client] (ecmascript) <export default as Star>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.js [app-client] (ecmascript) <export default as ArrowRight>");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/zap.js [app-client] (ecmascript) <export default as Zap>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/lib/utils.ts [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$magicui$2f$meteors$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/src/components/magicui/meteors.tsx [app-client] (ecmascript)");
 ;
@@ -1255,76 +1250,6 @@ function GameHero() {
                                                     }, void 0, false, {
                                                         fileName: "[project]/src/components/game-hero.tsx",
                                                         lineNumber: 113,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "absolute bottom-2 md:bottom-4 left-2 md:left-4 right-2 md:right-4",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            className: "bg-black/80 backdrop-blur-sm rounded-lg p-4 border border-gray-600/30",
-                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "flex justify-between items-center",
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "text-gray-300 text-lg font-medium",
-                                                                                children: "QUANTUM REALMS"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/game-hero.tsx",
-                                                                                lineNumber: 118,
-                                                                                columnNumber: 27
-                                                                            }, this),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                className: "text-gray-400 text-sm",
-                                                                                children: "Ultra Settings • RTX ON • 4K"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/game-hero.tsx",
-                                                                                lineNumber: 119,
-                                                                                columnNumber: 27
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/src/components/game-hero.tsx",
-                                                                        lineNumber: 117,
-                                                                        columnNumber: 25
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "flex items-center gap-2 text-gray-300 text-sm",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"], {
-                                                                                className: "w-4 h-4"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/game-hero.tsx",
-                                                                                lineNumber: 122,
-                                                                                columnNumber: 27
-                                                                            }, this),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                children: "144 FPS"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/src/components/game-hero.tsx",
-                                                                                lineNumber: 123,
-                                                                                columnNumber: 27
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/src/components/game-hero.tsx",
-                                                                        lineNumber: 121,
-                                                                        columnNumber: 25
-                                                                    }, this)
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/src/components/game-hero.tsx",
-                                                                lineNumber: 116,
-                                                                columnNumber: 23
-                                                            }, this)
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/src/components/game-hero.tsx",
-                                                            lineNumber: 115,
-                                                            columnNumber: 21
-                                                        }, this)
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/components/game-hero.tsx",
-                                                        lineNumber: 114,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]

@@ -6,7 +6,7 @@ import { Github, Twitter, Linkedin, Mail, Phone, MapPin, ArrowRight, Heart } fro
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { Input } from "./ui/input" // Assuming this path is correct based on your previous code
-
+ 
 export function InteractiveFooter() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 })
   const [isHovered, setIsHovered] = useState(false)
@@ -115,12 +115,21 @@ export function InteractiveFooter() {
           {/* Column 1: Company Info */}
           <div className="space-y-6">
             <div>
-              <h3
-                // Light mode: Dark gray text | Dark mode: Violet gradient text (for visibility on black)
-                className="text-2xl font-bold text-gray-900 dark:bg-gradient-to-r dark:from-violet-400 dark:to-fuchsia-400 dark:bg-clip-text dark:text-transparent mb-4"
-              >
-                GameStudio
-              </h3>
+              <div>
+  {/* Light Mode Logo */}
+  <img
+    src="/logo3.png"
+    alt="GameStudio Logo Light"
+    className="block dark:hidden h-16 w-auto"
+  />
+
+  {/* Dark Mode Logo */}
+  <img
+    src="/logo2.png"
+    alt="GameStudio Logo Dark"
+    className="hidden dark:block h-16 w-auto"
+  />
+</div>
               <p className="text-gray-700 dark:text-slate-400 leading-relaxed">
                 Creating immersive gaming experiences that push the boundaries of interactive entertainment.
               </p>
